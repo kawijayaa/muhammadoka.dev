@@ -1,11 +1,10 @@
 import Head from 'next/head';
-import {useTheme} from "next-themes"
 
 export default function Uses() {
   return (
     <div>
       <Head>
-        <title>muhammad oka</title>
+        <title>muhammadoka.</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="bg-white px-10 dark:bg-gray-900">

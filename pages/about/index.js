@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div>
       <Head>
-        <title>muhammad oka</title>
+        <title>muhammadoka.</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

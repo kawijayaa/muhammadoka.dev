@@ -12,11 +12,11 @@ export default function Programming() {
         <section className="sm:min-h-screen 3xl:min-h-[calc(100vh-100px)]">
           <div className="text-black sm:px-10 md:px-40 dark:text-white flex items-center sm:h-screen 3xl:h-[calc(100vh-200px)]">
             <div>
-              <h1 className="text-8xl font-semibold pb-10"><span className="text-cyan-500">/</span>programming</h1>
-              <p className="text-xl">Here is some of my projects over the years. Other projects can be found on my <a href="https://github.com/kawijayaa">github</a>.</p>
+              <h1 className="xxs:text-5xl xs:text-7xl font-semibold pb-10"><span className="text-cyan-500">/</span>programming</h1>
+              <p className="xxs:text-md xs:text-xl">Here is some of my projects over the years. Other projects can be found on my <a href="https://github.com/kawijayaa">github</a>.</p>
               <div>
                 <p className="pt-8 text-2xl font-semibold">HengkerNgangNgong COMPFEST14 CTF</p>
-                <p className="pt-2 text-lg">
+                <p className="pt-2 xxs:text-md xs:text-xl">
                   This is a repository including the writeups for my CTF team &quot;HengkerNgangNgong&quot; for the COMPFEST14 CTF.
                 </p>
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Cheesewaffly/COMPFEST14-CTF-Writeups">&gt; Github</a>
@@ -26,7 +26,7 @@ export default function Programming() {
                   <p className="text-2xl font-semibold">discord-self-bot</p>
                   <FaPython  className="text-3xl"/>
                 </div>
-                <p className="pt-2 text-lg">
+                <p className="pt-2 xxs:text-md xs:text-xl">
                   I made this &quot;bot&quot; as a project from learning about how people spread malwares through Discord.
                   <br></br>
                   Running this code will infringe Discord TOS. I am not responsible for any punishment from Discord.
@@ -38,7 +38,7 @@ export default function Programming() {
                   <p className="text-2xl font-semibold">TextToMorse</p>
                   <FaPython  className="text-3xl"/>
                 </div>
-                <p className="pt-2 text-lg">
+                <p className="pt-2 xxs:text-md xs:text-xl">
                   This is my first project with Arduino. Type the text in the serial monitor, the lights and speaker will
                   <br></br>
                   turn on and display the message in Morse code.

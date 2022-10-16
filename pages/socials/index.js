@@ -12,9 +12,9 @@ export default function Socials() {
         <section className="min-h-[calc(100vh-100px)]">
           <div className="text-black sm:px-10 md:px-40 dark:text-white flex h-[calc(100vh-200px)] items-center">
             <div>
-              <h1 className="text-8xl font-semibold pb-5"><span className="text-cyan-500">/</span>socials</h1>
-              <p className="text-xl">This is where you can contact me for questions or business enquiries.</p>
-                <ul className="text-4xl flex gap-10 py-5">
+              <h1 className="xxs:text-6xl xs:text-8xl font-semibold pb-5"><span className="text-cyan-500">/</span>socials</h1>
+              <p className="xxs:text-lg xs:text-xl">This is where you can contact me for questions or business enquiries.</p>
+                <ul className="xxs:text-3xl xs:text-4xl flex xxs:gap-3 xs:gap-10 xxs:py-2 xs:py-5">
                     <li className="py-2">
                         <a target="_blank" rel="noopener noreferrer" href="mailto:me@kawijayaa.me"><AiFillMail /></a>
                     </li>

@@ -11,8 +11,8 @@ export default function Uses() {
         <section className="min-h-screen py-14">
           <div className="text-black sm:px-10 md:px-40 dark:text-white">
             <div>
-              <h1 className="text-8xl font-semibold pb-5"><span className="text-cyan-500">/</span>uses</h1>
-              <p className="text-xl">This is the hardwares and softwares that I use daily.</p>
+              <h1 className="xxs:text-6xl xs:text-8xl font-semibold pb-5"><span className="text-cyan-500">/</span>uses</h1>
+              <p className="xxs:text-lg xs:text-xl">This is the hardwares and softwares that I use daily.</p>
               <div className="py-8">
                 <p className="text-2xl font-semibold">Development Software</p>
                 <ul className="py-2 px-3 pb-8 text-lg">

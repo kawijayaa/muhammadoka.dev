@@ -38,7 +38,9 @@ export default function Uses() {
                 <ul className="py-2 px-3 pb-8 text-lg">
                     <li>&gt; Laptop: ASUS ROG GL552VX</li>
                     <li>&gt; Monitor: Samsung TV</li>
-                    <li>&gt; Keyboard: Vortexseries GT-6 with Ajazz Kiwi switches</li>
+                    <li>&gt; Keyboard: Vortexseries GT-6 with Custom Acrylic Case</li>
+                    <li>&gt; Switch: Ajazz Kiwi lubed with Krytox 205g0</li>
+                    <li>&gt; Keycaps: Press Play Pandora PBT</li>
                     <li>&gt; Mouse: Rexus Daxa Air IV</li>
                     <li>&gt; Deskmat: Noir Diagonal Black Shades</li>
                     <li>&gt; IEM: Moondrop Starfield with Xinhs Pure Silver cable</li>

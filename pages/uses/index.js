@@ -18,6 +18,7 @@ export default function Uses() {
                 <ul className="py-2 px-3 pb-8 text-lg">
                     <li>&gt; VSCodium</li>
                     <li>&gt; Git</li>
+                    <li>&gt; Ghidra</li>
                 </ul>
                 <p className="text-2xl font-semibold">Design Software</p>
                 <ul className="py-2 px-3 pb-8 text-lg">
@@ -32,16 +33,16 @@ export default function Uses() {
                     <li>&gt; Python</li>
                     <li>&gt; Javascript</li>
                     <li>&gt; C</li>
-                    <li>&gt; HTML</li>
                 </ul>
                 <p className="text-2xl font-semibold">Setup</p>
                 <ul className="py-2 px-3 pb-8 text-lg">
                     <li>&gt; Laptop: ASUS ROG GL552VX</li>
                     <li>&gt; Monitor: Samsung TV</li>
                     <li>&gt; Keyboard: Vortexseries GT-6 with Custom Acrylic Case</li>
-                    <li>&gt; Switch: Ajazz Kiwi lubed with Krytox 205g0</li>
+                    <li>&gt; Switch: Ajazz Kiwi lubed with Krytox 205g0 & 105g0</li>
+                    <li>&gt; Stabilizers: Durock Black Plate Mount lubed with Krytox 205g0 and Holee Mod</li>
                     <li>&gt; Keycaps: Press Play Pandora PBT</li>
-                    <li>&gt; Mouse: Rexus Daxa Air IV</li>
+                    <li>&gt; Mouse: Rexus Daxa Air IV Black</li>
                     <li>&gt; Deskmat: Noir Diagonal Black Shades</li>
                     <li>&gt; IEM: Moondrop Starfield with Xinhs Pure Silver cable</li>
                 </ul>

@@ -41,7 +41,7 @@ export default function Programming() {
                 <p className="pt-2 xxs:text-sm xs:text-xl">
                   This is my first project with Arduino. Type the text in the serial monitor, the lights and speaker will
                   <br></br>
-                  turn on and display the message in Morse code.
+                  turn on and output the message in Morse code.
                 </p>
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/kawijayaa/TextToMorse" className="xxs:text-sm xs:text-md">&gt; Github</a>
               </div>

@@ -16,7 +16,7 @@ export default function Uses() {
               <div className="py-8">
                 <p className="text-2xl font-semibold">Development Software</p>
                 <ul className="py-2 px-3 pb-8 text-lg">
-                    <li>&gt; VS Code</li>
+                    <li>&gt; Visual Studio Code</li>
                     <li>&gt; Git</li>
                     <li>&gt; Ghidra</li>
                     <li>&gt; Docker</li>
@@ -45,9 +45,13 @@ export default function Uses() {
                     <li>&gt; Keycaps: Press Play Pandora PBT</li>
                     <li>&gt; Mouse: Rexus Daxa Air IV Black with Mint Case</li>
                     <li>&gt; Deskmat: Noir Diagonal Black Shades</li>
+                </ul>
+                <p className="text-2xl font-semibold">Audio</p>
+                <ul className="py-2 px-3 pb-8 text-lg">
                     <li>&gt; Headphones: Phillips SHP 9500</li>
-                    <li>&gt; Microphone: Soundtech Lite</li>
                     <li>&gt; IEM: Moondrop Starfield with Xinhs Pure Silver cable</li>
+                    <li>&gt; DAC: Shanling UA3</li>
+                    <li>&gt; Microphone: Soundtech Lite</li>
                 </ul>
               </div>
             </div>

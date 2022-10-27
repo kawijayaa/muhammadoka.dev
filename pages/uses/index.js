@@ -32,8 +32,10 @@ export default function Uses() {
                 <p className="text-2xl font-semibold">Programming Languages</p>
                 <ul className="py-2 px-3 pb-8 text-lg">
                     <li>&gt; Python</li>
-                    <li>&gt; Javascript</li>
                     <li>&gt; C</li>
+                    <li>&gt; HTML</li>
+                    <li>&gt; CSS</li>
+                    <li>&gt; Javascript</li>
                 </ul>
                 <p className="text-2xl font-semibold">Setup</p>
                 <ul className="py-2 px-3 pb-8 text-lg">
@@ -50,6 +52,7 @@ export default function Uses() {
                 <ul className="py-2 px-3 pb-8 text-lg">
                     <li>&gt; Headphones: Phillips SHP 9500</li>
                     <li>&gt; IEM: Moondrop Starfield with Xinhs Pure Silver cable</li>
+                    <li>&gt; Eartips: Acoustune AEX07 Size M</li>
                     <li>&gt; DAC: Shanling UA3</li>
                     <li>&gt; Microphone: Soundtech Lite</li>
                 </ul>

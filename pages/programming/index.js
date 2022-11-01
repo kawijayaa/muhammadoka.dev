@@ -15,11 +15,11 @@ export default function Programming() {
               <h1 className="xxs:text-4xl xs:text-5xl sm:text-7xl font-semibold xxs:pb-5 xs:pb-10"><span className="text-cyan-500">/</span>programming</h1>
               <p className="xxs:text-sm xs:text-xl">Here is some of my projects over the years. Other projects can be found on my <a href="https://github.com/kawijayaa">github</a>.</p>
               <div>
-                <p className="pt-8 xxs:text-xl xs:text-2xl font-semibold">HengkerNgangNgong COMPFEST14 CTF</p>
+                <p className="pt-8 xxs:text-xl xs:text-2xl font-semibold">HengkerNgangNgong</p>
                 <p className="pt-2 xxs:text-sm xs:text-xl">
-                  This is a repository including the writeups for my CTF team &quot;HengkerNgangNgong&quot; for the COMPFEST14 CTF.
+                  This is a repository for the writeups for my CTF team &quot;HengkerNgangNgong&quot;.
                 </p>
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/Cheesewaffly/COMPFEST14-CTF-Writeups" className="xxs:text-sm xs:text-md">&gt; Github</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/kawijayaa/HengkerNgangNgong" className="xxs:text-sm xs:text-md">&gt; Github</a>
               </div>
               <div>
                 <div className="pt-8 flex items-center xxs:gap-1 xs:gap-2">

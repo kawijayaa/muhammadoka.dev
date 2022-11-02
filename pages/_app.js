@@ -3,6 +3,8 @@ import {ThemeProvider} from "next-themes"
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {useTheme} from "next-themes"
 import Navbar from "../components/Navbar";
+import { Analytics } from '@vercel/analytics/react';
+
 
 function MyApp({ Component, pageProps }) {
   const {systemTheme, theme, setTheme} = useTheme()
@@ -24,6 +26,7 @@ function MyApp({ Component, pageProps }) {
     <ThemeProvider enableSystem={true} attribute="class">
       <Navbar />
       <Component {...pageProps} />
+      <Analytics />
     </ThemeProvider>
   )
 }

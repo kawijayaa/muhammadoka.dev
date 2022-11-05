@@ -50,7 +50,7 @@ export default function Uses() {
                 </ul>
                 <p className="text-2xl font-semibold">Audio</p>
                 <ul className="py-2 px-3 pb-8 text-lg">
-                    <li>&gt; Headphones: Phillips SHP 9500</li>
+                    <li>&gt; Headphones: Sennheiser HD560S</li>
                     <li>&gt; IEM: Thieaudio Elixir</li>
                     <li>&gt; IEM Cable: VJC Lam Fath Hybrid with 3.5mm Oyaide Rhodium Jack</li>
                     <li>&gt; Eartips: Acoustune AEX07 Size M</li>

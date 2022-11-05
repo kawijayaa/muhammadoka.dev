@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import {FaPython} from 'react-icons/fa';
+import { FaPython, FaReact} from 'react-icons/fa';
 
 export default function Programming() {
   return (
@@ -23,27 +23,30 @@ export default function Programming() {
               </div>
               <div>
                 <div className="pt-8 flex items-center xxs:gap-1 xs:gap-2">
+                  <p className="xxs:text-xl xs:text-2xl font-semibold">kawijayaa.me</p>
+                  <FaReact className="xxs:text-xl xs:text-3xl"/>
+                </div>
+                <p className="pt-2 xxs:text-sm xs:text-xl">
+                  This version of my personal website is the result of my journey learning React and Next.JS.
+                  <br></br>
+                  The old version of this website is made using Vue. You can see the source code in the link below.
+                </p>
+                <div className="pt-1 flex items-center xxs:gap-1 xs:gap-2">
+                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/kawijayaa/my_website" className="xxs:text-sm xs:text-md">&gt; Github</a>
+                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/kawijayaa/kawijayaa_vue" className="xxs:text-sm xs:text-md">&gt; Github (old version)</a>
+                </div>
+              </div>
+              <div>
+                <div className="pt-8 flex items-center xxs:gap-1 xs:gap-2">
                   <p className="xxs:text-xl xs:text-2xl font-semibold">discord-self-bot</p>
                   <FaPython  className="xxs:text-xl xs:text-3xl"/>
                 </div>
                 <p className="pt-2 xxs:text-sm xs:text-xl">
                   I made this &quot;bot&quot; as a project from learning about how people spread malwares through Discord.
                   <br></br>
-                  Running this code will infringe Discord TOS. I am not responsible for any punishment from Discord.
+                  I cannot be held not responsible for any punishment from Discord that you may receive from running this code.
                 </p>
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/kawijayaa/discord-self-bot" className="xxs:text-sm xs:text-md">&gt; Github</a>
-              </div>
-              <div>
-                <div className="pt-8 flex items-center xxs:gap-1 xs:gap-2">
-                  <p className="xxs:text-xl xs:text-2xl font-semibold">TextToMorse</p>
-                  <FaPython  className="xxs:text-xl xs:text-3xl"/>
-                </div>
-                <p className="pt-2 xxs:text-sm xs:text-xl">
-                  This is my first project with Arduino. Type the text in the serial monitor, the lights and speaker will
-                  <br></br>
-                  turn on and output the message in Morse code.
-                </p>
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/kawijayaa/TextToMorse" className="xxs:text-sm xs:text-md">&gt; Github</a>
               </div>
             </div>
           </div>

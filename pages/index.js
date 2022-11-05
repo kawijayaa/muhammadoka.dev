@@ -18,7 +18,7 @@ export default function Home() {
                 <br></br>
                 Based in Jakarta, ID
               </p>
-              <p className="text-[0.75rem] text-gray-400">(ps: this website is not optimized (yet) for anything other than for desktop. soz.)</p>
+              <p className="pt-1 text-[0.75rem] text-gray-400">(ps: this website is not optimized (yet) for anything other than for desktop.)</p>
               <Link href="/about"><a className="xs:text-sm xs:text-lg text-gray-400 italic">&gt; more about me</a></Link>
             </div>
           </div>

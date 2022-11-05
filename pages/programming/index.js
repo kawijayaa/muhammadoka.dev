@@ -17,7 +17,7 @@ export default function Programming() {
               <div>
                 <p className="pt-8 xxs:text-xl xs:text-2xl font-semibold">HengkerNgangNgong</p>
                 <p className="pt-2 xxs:text-sm xs:text-xl">
-                  This is a repository for the writeups for my CTF team &quot;HengkerNgangNgong&quot;.
+                  This is a repository containing writeups for my CTF team &quot;HengkerNgangNgong&quot;.
                 </p>
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/kawijayaa/HengkerNgangNgong" className="xxs:text-sm xs:text-md">&gt; Github</a>
               </div>

@@ -42,17 +42,15 @@ export default function Uses() {
                     <li>&gt; Laptop: ASUS ROG Zephyrus M16</li>
                     <li>&gt; Monitor: Samsung TV</li>
                     <li>&gt; Keyboard: Vortexseries GT-6 with Custom Acrylic Case</li>
-                    <li>&gt; Switch: Ajazz Kiwi lubed with Krytox 205g0 & 105g0</li>
-                    <li>&gt; Stabilizers: Durock Black Plate Mount lubed with Krytox 205g0 and Holee Mod</li>
+                    <li>&gt; Switch: Ajazz Kiwi Tactile Switch</li>
                     <li>&gt; Keycaps: Press Play Pandora PBT</li>
-                    <li>&gt; Mouse: Rexus Daxa Air IV Black with Mint Case</li>
-                    <li>&gt; Deskmat: Noir Diagonal Black Shades</li>
+                    <li>&gt; Mouse: Rexus Daxa Air IV</li>
                 </ul>
                 <p className="text-2xl font-semibold">Audio</p>
                 <ul className="py-2 px-3 pb-8 text-lg">
                     <li>&gt; Headphones: Sennheiser HD560S</li>
                     <li>&gt; IEM: Thieaudio Elixir</li>
-                    <li>&gt; IEM Cable: VJC Lam Fath Hybrid with 3.5mm Oyaide Rhodium Jack</li>
+                    <li>&gt; IEM Cable: VJC Lam Fath Hybrid</li>
                     <li>&gt; Eartips: Acoustune AEX07 Size M</li>
                     <li>&gt; DAC: Shanling UA3</li>
                     <li>&gt; Microphone: Soundtech Lite</li>

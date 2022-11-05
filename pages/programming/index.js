@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { FaPython, FaReact} from 'react-icons/fa';
+import {FaPython, FaReact} from 'react-icons/fa';
 
 export default function Programming() {
   return (

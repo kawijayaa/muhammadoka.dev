@@ -3,7 +3,7 @@ import {ThemeProvider} from "next-themes"
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {useTheme} from "next-themes"
 import Navbar from "../components/Navbar";
-import { Analytics } from '@vercel/analytics/react';
+import {Analytics} from '@vercel/analytics/react';
 
 
 function MyApp({ Component, pageProps }) {

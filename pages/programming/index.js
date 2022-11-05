@@ -13,7 +13,7 @@ export default function Programming() {
           <div className="text-black sm:px-10 md:px-40 dark:text-white flex items-center sm:h-screen 3xl:h-[calc(100vh-200px)] xxs:py-10">
             <div>
               <h1 className="xxs:text-4xl xs:text-5xl sm:text-7xl font-semibold xxs:pb-5 xs:pb-10"><span className="text-cyan-500">/</span>programming</h1>
-              <p className="xxs:text-sm xs:text-xl">Here is some of my projects over the years. Other projects can be found on my <a href="https://github.com/kawijayaa">github</a>.</p>
+              <p className="xxs:text-sm xs:text-xl">Here is some of my projects over the years. Other projects can be found on my <a href="https://github.com/kawijayaa">Github</a>.</p>
               <div>
                 <p className="pt-8 xxs:text-xl xs:text-2xl font-semibold">HengkerNgangNgong</p>
                 <p className="pt-2 xxs:text-sm xs:text-xl">

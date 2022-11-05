@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import {AiFillMail, AiFillGithub, AiFillInstagram} from 'react-icons/ai';
+import {AiFillMail, AiFillGithub, AiFillInstagram, AiFillLinkedin} from 'react-icons/ai';
 
 export default function Socials() {
   return (
@@ -17,6 +17,9 @@ export default function Socials() {
                 <ul className="xxs:text-3xl xs:text-4xl flex xxs:gap-3 xs:gap-10 xxs:py-2 xs:py-5">
                     <li className="py-2">
                         <a target="_blank" rel="noopener noreferrer" href="mailto:me@kawijayaa.me"><AiFillMail /></a>
+                    </li>
+                    <li className="py-2">
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/muhammad-oka-b5512b220/"><AiFillLinkedin /></a>
                     </li>
                     <li className="py-2">
                         <a target="_blank" rel="noopener noreferrer" href="http://github.com/kawijayaa"><AiFillGithub /></a>

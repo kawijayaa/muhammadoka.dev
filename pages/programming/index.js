@@ -38,15 +38,13 @@ export default function Programming() {
               </div>
               <div>
                 <div className="pt-8 flex items-center xxs:gap-1 xs:gap-2">
-                  <p className="xxs:text-xl xs:text-2xl font-semibold">discord-self-bot</p>
+                  <p className="xxs:text-xl xs:text-2xl font-semibold">CTF_Flag_Checker</p>
                   <FaPython  className="xxs:text-xl xs:text-3xl"/>
                 </div>
                 <p className="pt-2 xxs:text-sm xs:text-xl">
-                  I made this &quot;bot&quot; as a project from learning about how people spread malwares through Discord.
-                  <br></br>
-                  I cannot be held not responsible for any punishment from Discord that you may receive from running this code.
+                  A library/infrastructure thingy using MongoDB and Python for generating, storing, and checking CTF Flags.
                 </p>
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/kawijayaa/discord-self-bot" className="xxs:text-sm xs:text-md">&gt; Github</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/kawijayaa/CTF_Flag_Checker" className="xxs:text-sm xs:text-md">&gt; Github</a>
               </div>
             </div>
           </div>

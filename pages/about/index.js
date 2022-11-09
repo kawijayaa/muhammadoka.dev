@@ -14,7 +14,7 @@ export default function About() {
             <div>
               <h1 className="xxs:text-5xl xs:text-8xl font-semibold pb-5"><span className="text-cyan-500">/</span>about</h1>
               <p className="xxs:text-md xs:text-xl">
-                Hello! My name is Muhammad Oka, known as Oka. I started programming in 3rd grade after joining the robotics team in my elementary school.
+                Hello! My name is Muhammad Oka, known as Oka. I started programming in 3rd grade after joining the robotics team in my elementary school.<br></br>
                 Currently an undergraduate computer science at the University of Indonesia. I am interested in Cyber Security and Web Development.
                 <br></br><br></br>
                 Outside from the computer world, I have a passion for music, photography, and videography.

@@ -9,8 +9,8 @@ export default function Socials() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="bg-white px-10 dark:bg-gray-900">
-        <section className="min-h-[calc(100vh-100px)]">
-          <div className="text-black sm:px-10 md:px-40 dark:text-white flex h-[calc(100vh-200px)] items-center">
+        <section className="xxs:min-h-[calc(100vh-60px)] xl:min-h-[calc(100vh-100px)]">
+          <div className="text-black sm:px-10 md:px-40 dark:text-white flex xxs:h-[calc(100vh-60px)] xl:h-[calc(100vh-100px)] items-center">
             <div>
               <h1 className="xxs:text-6xl xs:text-8xl font-semibold pb-5"><span className="text-cyan-500">/</span>socials</h1>
               <p className="xxs:text-lg xs:text-xl">This is where you can contact me for questions or business enquiries.</p>

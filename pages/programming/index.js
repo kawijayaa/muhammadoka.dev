@@ -9,8 +9,8 @@ export default function Programming() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="bg-white xxs:px-14 lg:px-10 dark:bg-gray-900">
-        <section className="sm:min-h-screen xl:min-h-[calc(100vh-100px)]">
-          <div className="text-black sm:px-10 md:px-40 dark:text-white flex items-center sm:h-screen 3xl:h-[calc(100vh-200px)] xxs:py-10">
+        <section className="xxs:min-h-[calc(100vh-60px)] xl:min-h-[calc(100vh-100px)]">
+          <div className="text-black sm:px-10 md:px-40 dark:text-white flex items-center xxs:h-[calc(100vh-120px)] 3xl:h-[calc(100vh-200px)] xxs:py-10">
             <div>
               <h1 className="xxs:text-4xl xs:text-5xl sm:text-7xl font-semibold xxs:pb-5 xs:pb-10"><span className="text-cyan-500">/</span>programming</h1>
               <p className="xxs:text-sm xs:text-xl">Here is some of my projects over the years. Other projects can be found on my <a href="https://github.com/kawijayaa">Github</a>.</p>

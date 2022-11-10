@@ -14,31 +14,31 @@ export default function Uses() {
               <h1 className="xxs:text-6xl xs:text-8xl font-semibold pb-5"><span className="text-cyan-500">/</span>uses</h1>
               <p className="xxs:text-lg xs:text-xl">This is the hardwares and softwares that I use daily.</p>
               <div className="py-8">
-                <p className="text-2xl font-semibold">Development Software</p>
-                <ul className="py-2 px-3 pb-8 text-lg">
+                <p className="text-xl font-semibold">Development Software</p>
+                <ul className="py-2 px-3 pb-8 text-md">
                     <li>&gt; Visual Studio Code</li>
                     <li>&gt; Git</li>
                     <li>&gt; Ghidra</li>
                     <li>&gt; Docker</li>
                 </ul>
-                <p className="text-2xl font-semibold">Design Software</p>
-                <ul className="py-2 px-3 pb-8 text-lg">
+                <p className="text-xl font-semibold">Design Software</p>
+                <ul className="py-2 px-3 pb-8 text-md">
                     <li>&gt; Adobe Photoshop</li>
                     <li>&gt; Adobe Lightroom</li>
                     <li>&gt; Adobe Premiere Pro</li>
                     <li>&gt; Adobe After Effects</li>
                     <li>&gt; Figma</li>
                 </ul>
-                <p className="text-2xl font-semibold">Programming Languages</p>
-                <ul className="py-2 px-3 pb-8 text-lg">
+                <p className="text-xl font-semibold">Programming Languages</p>
+                <ul className="py-2 px-3 pb-8 text-md">
                     <li>&gt; Python</li>
                     <li>&gt; C</li>
                     <li>&gt; HTML</li>
                     <li>&gt; CSS</li>
                     <li>&gt; Javascript</li>
                 </ul>
-                <p className="text-2xl font-semibold">Setup</p>
-                <ul className="py-2 px-3 pb-8 text-lg">
+                <p className="text-xl font-semibold">Setup</p>
+                <ul className="py-2 px-3 pb-8 text-md">
                     <li>&gt; Laptop: ASUS ROG Zephyrus M16</li>
                     <li>&gt; Monitor: Samsung TV</li>
                     <li>&gt; Keyboard: Vortexseries GT-6 with Custom Acrylic Case</li>
@@ -46,8 +46,8 @@ export default function Uses() {
                     <li>&gt; Keycaps: Press Play Pandora PBT</li>
                     <li>&gt; Mouse: Rexus Daxa Air IV</li>
                 </ul>
-                <p className="text-2xl font-semibold">Audio</p>
-                <ul className="py-2 px-3 pb-8 text-lg">
+                <p className="text-xl font-semibold">Audio</p>
+                <ul className="py-2 px-3 text-md">
                     <li>&gt; Headphones: Sennheiser HD560S</li>
                     <li>&gt; IEM: Thieaudio Elixir</li>
                     <li>&gt; IEM Cable: VJC Lam Fath Hybrid</li>

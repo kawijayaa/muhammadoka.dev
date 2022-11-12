@@ -26,7 +26,7 @@ export default function Projects() {
                 <p className="pt-2 xxs:text-md xs:text-xl">
                   My motorcycle photography project. Started in 2020 as a boredom cure when the pandemic hits.
                 </p>
-                <a href="/osf" className="xxs:text-sm xs:text-md">&gt; Gallery</a>
+                <Link href="/osf" className="xxs:text-sm xs:text-md">&gt; Gallery</Link>
               </div>
               <div>
                 <div className="pt-8 flex items-center xxs:gap-1 xs:gap-2">
@@ -51,7 +51,7 @@ export default function Projects() {
                 <p className="pt-2 xxs:text-md xs:text-xl">
                   A library/infrastructure thingy using MongoDB and Python for generating, storing, and checking CTF Flags.
                 </p>
-                <Link target="_blank" rel="noopener noreferrer" href="https://github.com/kawijayaa/CTF_Flag_Checker" className="xxs:text-sm xs:text-md">&gt; Github</Link>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/kawijayaa/CTF_Flag_Checker" className="xxs:text-sm xs:text-md">&gt; Github</a>
               </div>
             </div>
           </div>

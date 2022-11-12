@@ -51,7 +51,7 @@ export default function Projects() {
                 <p className="pt-2 xxs:text-md xs:text-xl">
                   A library/infrastructure thingy using MongoDB and Python for generating, storing, and checking CTF Flags.
                 </p>
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/kawijayaa/CTF_Flag_Checker" className="xxs:text-sm xs:text-md">&gt; Github</a>
+                <Link target="_blank" rel="noopener noreferrer" href="https://github.com/kawijayaa/CTF_Flag_Checker" className="xxs:text-sm xs:text-md">&gt; Github</Link>
               </div>
             </div>
           </div>

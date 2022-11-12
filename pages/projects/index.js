@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import {FaPython, FaReact} from 'react-icons/fa';
 
 export default function Projects() {

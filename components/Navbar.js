@@ -48,7 +48,7 @@ export default function Navbar() {
                 </li>
                 <li className="flex-col">
                     <GiHamburgerMenu onClick={() => setNavbar(!navbar)} className="mr-0" />
-                    <ul className={`text-lg text-right ${navbar ? 'block' : 'hidden'}`}>
+                    <ul className={`text-lg text-right pt-2 ${navbar ? 'block' : 'hidden'}`}>
                         <li>
                             <Link className="px-2 py-1" href="/about"><a onClick={() => setNavbar(!navbar)} className="text-lg">about</a></Link>
                         </li>

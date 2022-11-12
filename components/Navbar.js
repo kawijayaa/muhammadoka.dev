@@ -33,7 +33,7 @@ export default function Navbar() {
                 <Link className="px-2 py-1" href="/about"><a className="text-lg">about</a></Link>
             </li>
             <li>
-                <Link className="px-2 py-1" href="/programming"><a className="text-lg">programming</a></Link>
+                <Link className="px-2 py-1" href="/projects"><a className="text-lg">projects</a></Link>
             </li>
             <li>
                 <Link className="px-2 py-1" href="/uses"><a className="text-lg">uses</a></Link>
@@ -47,19 +47,19 @@ export default function Navbar() {
                     {renderThemeChange()}
                 </li>
                 <li className="flex-col">
-                    <GiHamburgerMenu onClick={() => setNavbar(!navbar)}/>
+                    <GiHamburgerMenu onClick={() => setNavbar(!navbar)} className="mr-0" />
                     <ul className={`text-lg text-right ${navbar ? 'block' : 'hidden'}`}>
                         <li>
-                            <Link className="px-2 py-1" href="/about"><a className="text-lg">about</a></Link>
+                            <Link className="px-2 py-1" href="/about"><a onClick={() => setNavbar(!navbar)} className="text-lg">about</a></Link>
                         </li>
                         <li>
-                            <Link className="px-2 py-1" href="/programming"><a className="text-lg">programming</a></Link>
+                            <Link className="px-2 py-1" href="/projects"><a onClick={() => setNavbar(!navbar)} className="text-lg">projects</a></Link>
                         </li>
                         <li>
-                            <Link className="px-2 py-1" href="/uses"><a className="text-lg">uses</a></Link>
+                            <Link className="px-2 py-1" href="/uses"><a onClick={() => setNavbar(!navbar)} className="text-lg">uses</a></Link>
                         </li>
                         <li>
-                            <Link className="px-2 py-1" href="/socials"><a className="text-lg">socials</a></Link>
+                            <Link className="px-2 py-1" href="/socials"><a onClick={() => setNavbar(!navbar)} className="text-lg">socials</a></Link>
                         </li>
                     </ul>
                 </li>

@@ -1,4 +1,18 @@
 import Head from 'next/head';
+import { 
+  SiVisualstudiocode, 
+  SiGithub, 
+  SiAdobeaftereffects,
+  SiAdobephotoshop, 
+  SiAdobepremierepro,
+  SiAdobelightroom,
+  SiFigma,
+  SiPython,
+  SiJavascript,
+  SiC,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiDocker } from 'react-icons/si';
 
 export default function Uses() {
   return (
@@ -15,43 +29,41 @@ export default function Uses() {
               <p className="xxs:text-lg xs:text-xl">This is the hardwares and softwares that I use daily.</p>
               <div className="py-8">
                 <p className="text-xl font-semibold">Development Software</p>
-                <ul className="py-2 px-3 pb-8 text-md">
-                    <li>&gt; Visual Studio Code</li>
-                    <li>&gt; Git</li>
-                    <li>&gt; Ghidra</li>
-                    <li>&gt; Docker</li>
+                <ul className="py-6 px-3 pb-8 xxs:text-4xl lg:text-6xl flex xxs:gap-6 lg:gap-8">
+                    <SiVisualstudiocode />
+                    <SiGithub />
+                    <SiDocker />
                 </ul>
-                <p className="text-xl font-semibold">Design Software</p>
-                <ul className="py-2 px-3 pb-8 text-md">
-                    <li>&gt; Adobe Photoshop</li>
-                    <li>&gt; Adobe Lightroom</li>
-                    <li>&gt; Adobe Premiere Pro</li>
-                    <li>&gt; Adobe After Effects</li>
-                    <li>&gt; Figma</li>
+                <p className="text-xl font-semibold">Creative Software</p>
+                <ul className="py-6 px-3 pb-8 xxs:text-4xl lg:text-6xl flex xxs:gap-6 lg:gap-8">
+                    <SiAdobeaftereffects />
+                    <SiAdobelightroom />
+                    <SiAdobepremierepro />
+                    <SiAdobephotoshop />
+                    <SiFigma />
                 </ul>
-                <p className="text-xl font-semibold">Programming Languages</p>
-                <ul className="py-2 px-3 pb-8 text-md">
-                    <li>&gt; Python</li>
-                    <li>&gt; C</li>
-                    <li>&gt; HTML</li>
-                    <li>&gt; CSS</li>
-                    <li>&gt; Javascript</li>
+                <p className="text-xl font-semibold">Languages & Frameworks</p>
+                <ul className="py-6 px-3 pb-8 xxs:text-4xl lg:text-6xl flex xxs:gap-6 lg:gap-8">
+                    <SiPython />
+                    <SiC />
+                    <SiJavascript />
+                    <SiNextdotjs />
+                    <SiTailwindcss />
                 </ul>
                 <p className="text-xl font-semibold">Setup</p>
-                <ul className="py-2 px-3 pb-8 text-md">
-                    <li>&gt; Laptop: ASUS ROG Zephyrus M16</li>
+                <ul className="py-2 px-3 pb-8 lg:text-lg">
+                    <li>&gt; Laptop: ASUS ROG Zephyrus M16 2022</li>
                     <li>&gt; Monitor: Samsung TV</li>
                     <li>&gt; Keyboard: Vortexseries GT-6 with Custom Acrylic Case</li>
-                    <li>&gt; Switch: Ajazz Kiwi Tactile Switch</li>
+                    <li>&gt; Keyboard Switch: Ajazz Kiwi Tactile Switch</li>
                     <li>&gt; Keycaps: Press Play Pandora PBT</li>
                     <li>&gt; Mouse: Rexus Daxa Air IV</li>
                 </ul>
                 <p className="text-xl font-semibold">Audio</p>
-                <ul className="py-2 px-3 text-md">
+                <ul className="py-2 px-3 lg:text-lg">
                     <li>&gt; Headphones: Sennheiser HD560S</li>
                     <li>&gt; IEM: Thieaudio Elixir</li>
                     <li>&gt; IEM Cable: VJC Lam Fath Hybrid</li>
-                    <li>&gt; Eartips: Acoustune AEX07 Size M</li>
                     <li>&gt; DAC: Shanling UA3</li>
                     <li>&gt; Microphone: Soundtech Lite</li>
                 </ul>

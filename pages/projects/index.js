@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import {FaPython, FaReact} from 'react-icons/fa';
+import {FaPython, FaInstagram} from 'react-icons/fa';
+import {SiTailwindcss, SiMongodb} from 'react-icons/si';
+import {TbBrandNextjs} from 'react-icons/tb'
 
 export default function Projects() {
   return (
@@ -23,7 +25,10 @@ export default function Projects() {
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/kawijayaa/HengkerNgangNgong" className="xxs:text-sm xs:text-md">&gt; Github</a>
               </div>
               <div>
-                <p className="pt-8 xxs:text-2xl xs:text-2xl font-semibold">okengsukafoto</p>
+                <div className="pt-8 flex items-center xxs:gap-1 xs:gap-2">
+                  <p className="xxs:text-2xl xs:text-2xl font-semibold">okengsukafoto</p>
+                  <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/okengsukafoto"><FaInstagram className="xxs:text-xl xs:text-3xl"/></a>
+                </div>
                 <p className="pt-2 xxs:text-md xs:text-xl">
                   My motorcycle photography project. Started in 2020 as a boredom cure when the pandemic hits.
                 </p>
@@ -32,10 +37,11 @@ export default function Projects() {
               <div>
                 <div className="pt-8 flex items-center xxs:gap-1 xs:gap-2">
                   <p className="xxs:text-2xl xs:text-2xl font-semibold">kawijayaa.me</p>
-                  <FaReact className="xxs:text-xl xs:text-3xl"/>
+                  <TbBrandNextjs className="xxs:text-xl xs:text-3xl"/>
+                  <SiTailwindcss className="xxs:text-xl xs:text-3xl"/>
                 </div>
                 <p className="pt-2 xxs:text-md xs:text-xl">
-                  This version of my personal website is the result of my journey learning React and Next.JS.
+                  This version of my personal website is the result of my journey learning Next.JS and TailwindCSS.
                   <br></br>
                   The old version of this website is made using Vue. You can see the source code in the link below.
                 </p>
@@ -48,6 +54,7 @@ export default function Projects() {
                 <div className="pt-8 flex items-center xxs:gap-1 xs:gap-2">
                   <p className="xxs:text-2xl xs:text-2xl font-semibold">CTF_Flag_Checker</p>
                   <FaPython  className="xxs:text-xl xs:text-3xl"/>
+                  <SiMongodb  className="xxs:text-xl xs:text-3xl"/>
                 </div>
                 <p className="pt-2 xxs:text-md xs:text-xl">
                   A library/infrastructure thingy using MongoDB and Python for generating, storing, and checking CTF Flags.

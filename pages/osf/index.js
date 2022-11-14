@@ -30,7 +30,7 @@ export default function OSF() {
                     <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/okengsukafoto"><FaInstagram className="xxs:text-3xl lg:text-4xl"/></a>
                 </div>
               <p className="xxs:text-md xs:text-xl">okengsukafoto is a pandemic-born project focusing mainly on automotive photography. Currently on hiatus.</p>
-              <div className="grid xxs:grid-cols-2 lg:grid-cols-3 xxs:pt-5 lg:pt-10">
+              <div className="grid xxs:grid-cols-2 lg:grid-cols-3 xxs:py-5 lg:py-10">
                 <img src="img/osf-1.jpg"></img>
                 <img src="img/osf-9.jpg"></img>
                 <img src="img/osf-8.jpg"></img>

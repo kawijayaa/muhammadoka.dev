@@ -12,8 +12,12 @@ import {
   SiC,
   SiNextdotjs,
   SiTailwindcss,
-  SiDocker } from 'react-icons/si';
-
+  SiDocker,
+  SiTidal,
+  SiSteam,
+  SiEpicgames,
+  SiWireshark,
+  SiBitwarden} from 'react-icons/si';
 export default function Uses() {
   return (
     <div>
@@ -28,20 +32,6 @@ export default function Uses() {
               <h1 className="xxs:text-6xl xs:text-8xl font-semibold pb-5"><span className="text-cyan-500">/</span>uses</h1>
               <p className="xxs:text-lg xs:text-xl">This is the hardwares and softwares that I use daily.</p>
               <div className="py-8">
-                <p className="text-xl font-semibold">Development Software</p>
-                <ul className="py-6 px-3 pb-8 xxs:text-4xl lg:text-6xl flex xxs:gap-6 lg:gap-8">
-                    <SiVisualstudiocode />
-                    <SiGithub />
-                    <SiDocker />
-                </ul>
-                <p className="text-xl font-semibold">Creative Software</p>
-                <ul className="py-6 px-3 pb-8 xxs:text-4xl lg:text-6xl flex xxs:gap-6 lg:gap-8">
-                    <SiAdobeaftereffects />
-                    <SiAdobelightroom />
-                    <SiAdobepremierepro />
-                    <SiAdobephotoshop />
-                    <SiFigma />
-                </ul>
                 <p className="text-xl font-semibold">Languages & Frameworks</p>
                 <ul className="py-6 px-3 pb-8 xxs:text-4xl lg:text-6xl flex xxs:gap-6 lg:gap-8">
                     <SiPython />
@@ -49,6 +39,27 @@ export default function Uses() {
                     <SiJavascript />
                     <SiNextdotjs />
                     <SiTailwindcss />
+                </ul>
+                <p className="text-xl font-semibold">Development Software</p>
+                <ul className="py-6 px-3 pb-8 xxs:text-4xl lg:text-6xl flex xxs:gap-6 lg:gap-8">
+                    <SiVisualstudiocode />
+                    <SiGithub />
+                    <SiDocker />
+                    <SiWireshark />
+                </ul>
+                <p className="text-xl font-semibold">Creative Software</p>
+                <ul className="py-6 px-3 pb-8 xxs:text-4xl lg:text-6xl flex xxs:gap-6 lg:gap-8">
+                    <SiAdobelightroom />
+                    <SiAdobephotoshop />
+                    <SiAdobepremierepro />
+                    <SiFigma />
+                </ul>
+                <p className="text-xl font-semibold">Miscellaneous Software</p>
+                <ul className="py-6 px-3 pb-8 xxs:text-4xl lg:text-6xl flex xxs:gap-6 lg:gap-8">
+                    <SiTidal />
+                    <SiSteam />
+                    <SiEpicgames />
+                    <SiBitwarden />
                 </ul>
                 <p className="text-xl font-semibold">Setup</p>
                 <ul className="py-2 px-3 pb-8 lg:text-lg">

@@ -12,10 +12,10 @@ export default function Projects() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="bg-white px-10 dark:bg-gray-900">
-        <section className="xxs:min-h-screen xxs:py-10 lg:py-0 xl:min-h-[calc(100vh-100px)]">
-          <div className="text-black sm:px-10 md:px-40 dark:text-white flex xxs:h-screen xl:h-[calc(100vh-150px)] items-center">
+        <section className="xxs:min-h-screen xxs:py-10 lg:py-0 lg:pt-5 sm:min-h-[calc(100vh-60px)] xl:min-h-[calc(100vh-100px)]">
+          <div className="text-black sm:px-10 md:px-40 dark:text-white flex items-center">
             <div>
-              <h1 className="xxs:text-5xl xs:text-6xl sm:text-7xl font-semibold xxs:pb-5 xs:pb-10"><span className="text-cyan-500">/</span>projects</h1>
+              <h1 className="xxs:text-5xl sm:text-7xl font-semibold xxs:pb-5 xs:pb-10"><span className="text-cyan-500">/</span>projects</h1>
               <p className="xxs:text-md xs:text-xl">Here is some of my projects over the years. Most of them are programming projects, but I have<br></br>miscellaneous projects in the works.</p>
               <div>
                 <p className="pt-8 xxs:text-2xl xs:text-2xl font-semibold">HengkerNgangNgong</p>

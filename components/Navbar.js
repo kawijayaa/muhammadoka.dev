@@ -12,16 +12,16 @@ export default function Navbar() {
 
         if (currentTheme == "dark") {
             return (
-                <BsFillMoonStarsFill onClick={() => setTheme("light")} className="cursor-pointer xxs:text-sm xs:text-xl" />
+                <BsFillMoonStarsFill onClick={() => setTheme("light")} className="cursor-pointer xxs:text-sm xs:text-md sm:text-xl" />
             )
         } else {
             return (
-                <BsFillMoonStarsFill onClick={() => setTheme("dark")} className="cursor-pointer xxs:text-sm xs:text-xl" />
+                <BsFillMoonStarsFill onClick={() => setTheme("dark")} className="cursor-pointer xxs:text-sm md:text-md sm:text-xl" />
             )
         }
     }
     return (
-        <nav className="xxs:px-6 xs:px-10 xxs:py-4 xs:py-8 flex justify-between bg-white dark:bg-gray-900">
+        <nav className="xxs:px-6 sm:px-10 xxs:py-4 sm:py-8 flex justify-between bg-white dark:bg-gray-900">
             <Link href="/">
                 <a onClick={() => setNavbar(false)} className="text-black xxs:text-xl xs:text-2xl sm:text-3xl font-semibold italic dark:text-white">muhammad<span className="text-cyan-500">oka.</span></a>
             </Link>

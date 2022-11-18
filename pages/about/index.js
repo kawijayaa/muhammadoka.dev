@@ -10,7 +10,7 @@ export default function About() {
 
       <main className="bg-white px-10 dark:bg-gray-900">
         <section className="xxs:min-h-[calc(100vh-60px)] xs:min-h-[calc(100vh-64px)] sm:min-h-[calc(100vh-100px)]">
-          <div className="text-black sm:px-10 md:px-40 dark:text-white flex xxs:h-[calc(100vh-120px)] xs:min-h-[calc(100vh-64px)] sm:h-[calc(100vh-200px)] items-center">
+          <div className="text-black sm:px-10 md:px-40 dark:text-white flex h-[calc(100vh-128px)] items-center">
             <div>
               <h1 className="xxs:text-5xl sm:text-8xl font-semibold pb-5"><span className="text-cyan-500">/</span>about</h1>
               <p className="xxs:text-md sm:text-xl">

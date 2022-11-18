@@ -23,7 +23,7 @@ export default function Navbar() {
     return (
         <nav className="xxs:px-6 xs:px-10 xxs:py-4 xs:py-8 flex justify-between bg-white dark:bg-gray-900">
             <Link href="/">
-                <a className="text-black xxs:text-lg xs:text-3xl font-semibold italic dark:text-white">muhammad<span className="text-cyan-500">oka.</span></a>
+                <a onClick={() => setNavbar(false)} className="text-black xxs:text-xl xs:text-2xl sm:text-3xl font-semibold italic dark:text-white">muhammad<span className="text-cyan-500">oka.</span></a>
             </Link>
             <ul className="text-black items-center md:gap-8 sm:gap-2 dark:text-white md:flex xxs:hidden">
             <li>
@@ -42,25 +42,27 @@ export default function Navbar() {
                 <Link className="px-2 py-1" href="/socials"><a className="text-lg">socials</a></Link>
             </li>
             </ul>
-            <ul className={`text-black xxs:text-lg xs:text-2xl gap-4 dark:text-white md:hidden xxs:flex ${navbar ? 'items-start py-2' : 'items-center'}`}>
+            <ul className="text-black xxs:text-xl sm:text-2xl gap-4 dark:text-white md:hidden xxs:flex py-1 items-center">
                 <li>
                     {renderThemeChange()}
                 </li>
                 <li className="flex-col">
-                    <GiHamburgerMenu onClick={() => setNavbar(!navbar)} className="mr-0" />
-                    <ul className={`text-lg text-right pt-2 ${navbar ? 'block' : 'hidden'}`}>
-                        <li>
-                            <Link className="px-2 py-1" href="/about"><a onClick={() => setNavbar(!navbar)} className="text-lg">about</a></Link>
-                        </li>
-                        <li>
-                            <Link className="px-2 py-1" href="/projects"><a onClick={() => setNavbar(!navbar)} className="text-lg">projects</a></Link>
-                        </li>
-                        <li>
-                            <Link className="px-2 py-1" href="/uses"><a onClick={() => setNavbar(!navbar)} className="text-lg">uses</a></Link>
-                        </li>
-                        <li>
-                            <Link className="px-2 py-1" href="/socials"><a onClick={() => setNavbar(!navbar)} className="text-lg">socials</a></Link>
-                        </li>
+                    <GiHamburgerMenu onClick={() => setNavbar(!navbar)} />
+                    <ul className={`z-50 fixed right-6 text-lg text-right pt-2 ${navbar ? 'block' : 'hidden'}`}>
+                        <div className="bg-black/30 p-2 pl-5 rounded">
+                            <li className="pb-1">
+                                <Link href="/about"><a onClick={() => setNavbar(!navbar)} className="text-lg">about</a></Link>
+                            </li>
+                            <li className="pb-1">
+                                <Link href="/projects"><a onClick={() => setNavbar(!navbar)} className="text-lg">projects</a></Link>
+                            </li>
+                            <li className="pb-1">
+                                <Link href="/uses"><a onClick={() => setNavbar(!navbar)} className="text-lg">uses</a></Link>
+                            </li>
+                            <li>
+                                <Link href="/socials"><a onClick={() => setNavbar(!navbar)} className="text-lg">socials</a></Link>
+                            </li>
+                        </div>
                     </ul>
                 </li>
             </ul>

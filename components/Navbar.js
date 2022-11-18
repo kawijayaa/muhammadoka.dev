@@ -49,7 +49,7 @@ export default function Navbar() {
                 <li className="flex-col">
                     <GiHamburgerMenu onClick={() => setNavbar(!navbar)} />
                     <ul className={`z-50 absolute right-6 text-lg text-right pt-2 ${navbar ? 'block' : 'hidden'}`}>
-                        <div className="bg-black/60 p-2 pl-5 rounded-">
+                        <div className="bg-black/60 p-2 pl-5 rounded">
                             <li className="pb-1">
                                 <Link href="/about"><a onClick={() => setNavbar(!navbar)} className="text-lg">about</a></Link>
                             </li>

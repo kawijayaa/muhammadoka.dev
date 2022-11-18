@@ -10,7 +10,7 @@ export default function Socials() {
       </Head>
       <main className="bg-white px-10 dark:bg-gray-900">
         <section className="xxs:min-h-[calc(100vh-60px)] xs:min-h-[calc(100vh-64px)] xl:min-h-[calc(100vh-100px)]">
-          <div className="text-black sm:px-10 md:px-40 dark:text-white flex xxs:h-[calc(100vh-60px)] xs:h-[calc(100vh-64px)] xl:h-[calc(100vh-100px)] items-center">
+          <div className="text-black sm:px-10 md:px-40 dark:text-white flex h-[calc(100vh-100px)] items-center">
             <div>
               <h1 className="xxs:text-6xl sm:text-8xl font-semibold xxs:pb-3 sm:pb-5"><span className="text-cyan-500">/</span>socials</h1>
               <p className="xxs:text-lg xs:text-xl">This is where you can contact me for questions or business enquiries.</p>

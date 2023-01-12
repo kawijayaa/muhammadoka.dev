@@ -16,7 +16,7 @@ export default function Socials() {
               <p className="xxs:text-lg xs:text-xl">This is where you can contact me for questions or business enquiries.</p>
                 <ul className="xxs:text-3xl xs:text-4xl flex xxs:gap-3 xs:gap-10 xxs:py-2 xs:py-5">
                     <li className="py-2">
-                        <a target="_blank" rel="noopener noreferrer" href="mailto:me@kawijayaa.me"><AiFillMail /></a>
+                        <a target="_blank" rel="noopener noreferrer" href="mailto:oka@muhammadoka.dev"><AiFillMail /></a>
                     </li>
                     <li className="py-2">
                         <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/muhammad-oka-b5512b220/"><AiFillLinkedin /></a>

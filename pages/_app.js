@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider enableSystem={true} attribute="class">
       <Navbar />
-      <Component {...pageProps} />
+      <Component {...pageProps} onClick={() => Navbar.setNavbar(false)}/>
       <Analytics />
     </ThemeProvider>
   )

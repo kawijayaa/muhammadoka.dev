@@ -36,7 +36,7 @@ export default function Projects() {
               </div>
               <div>
                 <div className="pt-8 flex items-center xxs:gap-1 xs:gap-2">
-                  <p className="xxs:text-2xl xs:text-2xl font-semibold">kawijayaa.me</p>
+                  <p className="xxs:text-2xl xs:text-2xl font-semibold">muhammadoka.dev</p>
                   <TbBrandNextjs className="xxs:text-xl xs:text-3xl"/>
                   <SiTailwindcss className="xxs:text-xl xs:text-3xl"/>
                 </div>

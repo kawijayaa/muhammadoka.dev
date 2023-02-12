@@ -12,27 +12,21 @@ export default function Projects() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="bg-white px-10 dark:bg-gray-900">
-        <section className="xxs:min-h-screen xxs:py-10 lg:py-8 sm:min-h-[calc(100vh-60px)] lg:min-h-[calc(100vh-100px)]">
+        <section className="min-h-screen py-24">
           <div className="text-black sm:px-10 md:px-40 dark:text-white flex items-center xl:h-[calc(100vh-200px)]">
             <div>
               <h1 className="xxs:text-5xl sm:text-7xl font-semibold xxs:pb-5 xs:pb-10"><span className="text-cyan-500">/</span>projects</h1>
-              <p className="xxs:text-md xs:text-xl">Here is some of my projects over the years. Most of them are programming projects, but I have<br></br>miscellaneous projects in the works.</p>
-              <div>
-                <p className="pt-8 xxs:text-2xl xs:text-2xl font-semibold">HengkerNgangNgong</p>
-                <p className="pt-2 xxs:text-md xs:text-xl">
-                  This is a repository containing writeups for my CTF team &quot;HengkerNgangNgong&quot;.
-                </p>
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/kawijayaa/HengkerNgangNgong" className="xxs:text-sm xs:text-md">&gt; Github</a>
-              </div>
+              <p className="xxs:text-md xs:text-xl">Here is some of my projects over the years. Most of them are programming projects, but I have<br></br>miscellaneous projects in the works. Sorted by latest.</p>
               <div>
                 <div className="pt-8 flex items-center xxs:gap-1 xs:gap-2">
-                  <p className="xxs:text-2xl xs:text-2xl font-semibold">okengsukafoto</p>
-                  <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/okengsukafoto"><FaInstagram className="xxs:text-xl xs:text-3xl"/></a>
+                  <p className="xxs:text-2xl xs:text-2xl font-semibold">Kedubes Expo 2023 Website</p>
+                  <TbBrandNextjs className="xxs:text-xl xs:text-3xl"/>
+                  <SiTailwindcss className="xxs:text-xl xs:text-3xl"/>
                 </div>
                 <p className="pt-2 xxs:text-md xs:text-xl">
-                  My motorcycle photography project. Started in 2020 as a boredom cure when the pandemic hits.
+                  A website for the SMAN 12 Kedubes Expo 2023 event.
                 </p>
-                <Link href="/osf" className="xxs:text-sm xs:text-md">&gt; Gallery</Link>
+                <a target="_blank" rel="noopener noreferrer" href="https://kepo2023.vercel.app" className="xxs:text-sm xs:text-md">&gt; Website</a>
               </div>
               <div>
                 <div className="pt-8 flex items-center xxs:gap-1 xs:gap-2">
@@ -60,6 +54,23 @@ export default function Projects() {
                   A library/infrastructure thingy using MongoDB and Python for generating, storing, and checking CTF Flags.
                 </p>
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/kawijayaa/CTF_Flag_Checker" className="xxs:text-sm xs:text-md">&gt; Github</a>
+              </div>
+              <div>
+                <p className="pt-8 xxs:text-2xl xs:text-2xl font-semibold">HengkerNgangNgong</p>
+                <p className="pt-2 xxs:text-md xs:text-xl">
+                  This is a repository containing writeups for my CTF team &quot;HengkerNgangNgong&quot;.
+                </p>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/kawijayaa/HengkerNgangNgong" className="xxs:text-sm xs:text-md">&gt; Github</a>
+              </div>
+              <div>
+                <div className="pt-8 flex items-center xxs:gap-1 xs:gap-2">
+                  <p className="xxs:text-2xl xs:text-2xl font-semibold">okengsukafoto</p>
+                  <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/okengsukafoto"><FaInstagram className="xxs:text-xl xs:text-3xl"/></a>
+                </div>
+                <p className="pt-2 xxs:text-md xs:text-xl">
+                  My motorcycle photography project. Started in 2020 as a boredom cure when the pandemic hits.
+                </p>
+                <Link href="/osf" className="xxs:text-sm xs:text-md">&gt; Gallery</Link>
               </div>
             </div>
           </div>

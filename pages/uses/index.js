@@ -4,7 +4,6 @@ import {
   SiGithub, 
   SiAdobephotoshop, 
   SiAdobepremierepro,
-  SiAdobelightroom,
   SiFigma,
   SiPython,
   SiJavascript,
@@ -12,11 +11,10 @@ import {
   SiNextdotjs,
   SiTailwindcss,
   SiDocker,
-  SiTidal,
-  SiSteam,
-  SiEpicgames,
-  SiWireshark,
-  SiBitwarden} from 'react-icons/si';
+  SiWindows,
+  SiKalilinux,
+  SiWindowsterminal
+} from 'react-icons/si';
 import {FaJava} from 'react-icons/fa';
 
 export default function Uses() {
@@ -45,23 +43,20 @@ export default function Uses() {
                 <p className="text-xl font-semibold">Development Software</p>
                 <ul className="py-6 px-3 pb-8 xxs:text-4xl lg:text-6xl flex xxs:gap-6 lg:gap-8">
                     <SiVisualstudiocode />
+                    <SiWindowsterminal />
                     <SiGithub />
                     <SiDocker />
-                    <SiWireshark />
                 </ul>
                 <p className="text-xl font-semibold">Creative Software</p>
                 <ul className="py-6 px-3 pb-8 xxs:text-4xl lg:text-6xl flex xxs:gap-6 lg:gap-8">
-                    <SiAdobelightroom />
                     <SiAdobephotoshop />
                     <SiAdobepremierepro />
                     <SiFigma />
                 </ul>
-                <p className="text-xl font-semibold">Miscellaneous Software</p>
+                <p className="text-xl font-semibold">Operating Systems</p>
                 <ul className="py-6 px-3 pb-8 xxs:text-4xl lg:text-6xl flex xxs:gap-6 lg:gap-8">
-                    <SiTidal />
-                    <SiSteam />
-                    <SiEpicgames />
-                    <SiBitwarden />
+                    <SiWindows />
+                    <SiKalilinux />
                 </ul>
                 <p className="text-xl font-semibold">Setup</p>
                 <ul className="py-2 px-3 pb-8 lg:text-lg">

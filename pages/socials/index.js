@@ -19,7 +19,7 @@ export default function Socials() {
                         <a target="_blank" rel="noopener noreferrer" href="mailto:oka@muhammadoka.dev"><AiFillMail /></a>
                     </li>
                     <li className="py-2">
-                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/muhammad-oka-b5512b220/"><AiFillLinkedin /></a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/muhammadoka/"><AiFillLinkedin /></a>
                     </li>
                     <li className="py-2">
                         <a target="_blank" rel="noopener noreferrer" href="http://github.com/kawijayaa"><AiFillGithub /></a>

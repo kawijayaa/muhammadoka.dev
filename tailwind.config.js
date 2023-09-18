@@ -1,23 +1,16 @@
 /** @type {import('tailwindcss').Config} */
-const defaultTheme = require('tailwindcss/defaultTheme');
-
 module.exports = {
-  darkMode: "class",
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  plugins: [],
   theme: {
     extend: {
-      screens: {
-        '3xl': '1600px'
+      animation: {
+        'spin-slow': 'spin 5s linear infinite',
       }
-    },
-    screens: {
-      'xxs': '320px',
-      'xs': '425px',
-      ...defaultTheme.screens,
     }
   },
-  plugins: [],
 }

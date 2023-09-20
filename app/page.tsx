@@ -9,9 +9,9 @@ export default function Home() {
             <h1 className="text-7xl font-bold">hello! my name is <span className="text-transparent outline-custom">oka</span>.</h1>
             <div>
               <h2 className="text-3xl">telling computers what to do since 2013.</h2>
-              <a href="#about">
-                <h3 className="text-xl font-light hover:drop-shadow-[0_5px_5px_rgb(255,255,255,0.75)] transition-all">&gt; learn more</h3>
-              </a>
+              <h3 className="text-2xl font-light hover:drop-shadow-[0_5px_5px_rgb(255,255,255,0.75)] transition-all w-max">
+                <a href="#about">&gt; learn more</a>
+              </h3>
             </div>
         </div>
         <div className="justify-items-end">
@@ -24,8 +24,8 @@ export default function Home() {
       <div id="about" className="flex justify-center items-end min-h-screen w-full flex-col px-16 py-16 gap-8 z-10">
         <div className="p-12 bg-neutral-900 bg-opacity-80 drop-shadow-[0_10px_10px_rgb(0,0,0,0.5)] rounded-xl max-w-5xl">
           <p className="text-2xl">Hello! My name is Muhammad Oka, known as Oka. I started programming in 3rd grade after joining the robotics team in my elementary school.<br/>
-          Currently an undergraduate computer science at the University of Indonesia. I am interested in Cyber Security, Web Development and DevOps.<br/><br/>
-          Outside from the computer world, I have a passion for music, photography, and videography.</p>
+          Currently a double-degree computer science sophomore at the University of Indonesia. I am interested in Cyber Security, Web Development and DevOps.<br/><br/>
+          Outside from the computer science, I have a passion for music, photography, and videography.</p>
         </div>
         <p></p>
       </div>

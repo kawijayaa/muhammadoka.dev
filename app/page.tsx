@@ -1,8 +1,10 @@
 import NowPlaying from "./components/NowPlaying"
+import Navbar from "./components/Navbar"
 
 export default function Home() {
   return (
     <main className="bg-gradient-to-b from-emerald-400 from-10% via-sky-500 via-75% to-emerald-400 text-white">
+      <div className="absolute z-10"><Navbar /></div>
       <div className="flex justify-between min-h-screen flex-col px-16 py-12 gap-8 bg-neutral-900 text-white [clip-path:polygon(0%_0%,100%_0%,33%_100%,0%_100%)] z-10">
         <div></div>
         <div className="flex flex-col gap-2">

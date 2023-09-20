@@ -1,5 +1,4 @@
 import './globals.css'
-import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import type { Metadata } from 'next'
 import { Roboto } from 'next/font/google'
@@ -13,7 +12,7 @@ export const metadata: Metadata = {
   title: 'muhammadoka.dev',
 }
 
-export default function ProjectsLayout({
+export default function RootLayout({
   children,
 }: {
   children: React.ReactNode
@@ -21,7 +20,6 @@ export default function ProjectsLayout({
   return (
     <html lang="en">
       <body className={`scrollbar-thin scrollbar-thumb-neutral-500 scrollbar-track-neutral-800 scrollbar-thumb-rounded-full ${roboto.className}`}>
-        <Navbar />
         {children}
         <Footer />
       </body>

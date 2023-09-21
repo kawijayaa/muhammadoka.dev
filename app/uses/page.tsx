@@ -10,10 +10,13 @@ export default function Page() {
       <Navbar />
       <div className="flex px-24 pb-24 pt-8 min-h-screen">
         <div className="flex flex-col justify-between bg-neutral-900 px-16 py-12 gap-12 w-full rounded-xl text-white z-10">
-          <h1 className="text-7xl font-bold"><span className="text-transparent outline-custom">/</span>uses</h1>
+          <div className="flex justify-between items-center">
+            <h1 className="text-7xl font-bold"><span className="text-transparent outline-custom">/</span>uses</h1>
+            <a href="/#what-i-do" className="text-4xl hover:drop-shadow-[0_5px_5px_rgb(255,255,255,0.75)] transition-all"><BsChevronDoubleLeft /></a>  
+          </div>
           <div className="flex flex-col gap-8">
-            <h2 className="text-4xl font-bold">Programming Languages</h2>
-            <div className="flex gap-8 text-7xl">
+            <h2 className="text-3xl font-bold">Programming Languages</h2>
+            <div className="flex gap-8 text-6xl">
               <SiPython />
               <FaJava />
               <SiJavascript />
@@ -21,16 +24,16 @@ export default function Page() {
             </div>
           </div>
           <div className="flex flex-col gap-8">
-            <h2 className="text-4xl font-bold">Frameworks</h2>
-            <div className="flex gap-8 text-7xl">
+            <h2 className="text-3xl font-bold">Frameworks</h2>
+            <div className="flex gap-8 text-6xl">
               <SiNextdotjs />
               <SiTailwindcss />
               <SiDjango />
             </div>
           </div>
           <div className="flex flex-col gap-8">
-            <h2 className="text-4xl font-bold">Development Software</h2>
-            <div className="flex gap-8 text-7xl">
+            <h2 className="text-3xl font-bold">Development Software</h2>
+            <div className="flex gap-8 text-6xl">
               <SiVisualstudiocode />
               <SiWindowsterminal />
               <SiGit />
@@ -38,14 +41,14 @@ export default function Page() {
             </div>
           </div>
           <div className="flex flex-col gap-8">
-            <h2 className="text-4xl font-bold">Operating Systems</h2>
-            <div className="flex gap-8 text-7xl">
+            <h2 className="text-3xl font-bold">Operating Systems</h2>
+            <div className="flex gap-8 text-6xl">
               <SiWindows11 />
               <SiKalilinux /> 
             </div>
           </div>
-          <div className="flex flex-col gap-8">
-            <h2 className="text-4xl font-bold">Desktop Setup</h2>
+          <div className="flex flex-col gap-4">
+            <h2 className="text-3xl font-bold">Desktop Setup</h2>
             <ul className="text-2xl list-['>_'] list-inside space-y-2">
               <li>Laptop: Asus ROG Zephyrus M16 2022 (i7-12700H, RTX 3060)</li>
               <li>Monitor: Samsung TV</li>
@@ -78,7 +81,6 @@ export default function Page() {
               <li>MIDI Controller: M-Audio Keystation 49 MK3</li>
             </ul>
           </div>
-          <a href="/#what-i-do" className="text-4xl hover:drop-shadow-[0_5px_5px_rgb(255,255,255,0.75)] transition-all"><BsChevronDoubleLeft /></a>
         </div>
       </div>
     </main>

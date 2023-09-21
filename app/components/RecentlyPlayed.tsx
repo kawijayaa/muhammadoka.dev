@@ -34,7 +34,7 @@ export const RecentlyPlayed = () => {
         {track_list?.map(function(track?) {
             let song_name = track.name
             return (
-              <div className={"flex items-center gap-6 p-4 rounded-xl bg-neutral-900 " + (track['@attr']?.nowplaying ? 'border-4 drop-shadow-[0_5px_5px_rgb(255,255,255,0.25)] transition-all' : '')}>
+              <div key={track.mbid} className={"flex items-center gap-6 p-4 rounded-xl bg-neutral-900 " + (track['@attr']?.nowplaying ? 'border-4 drop-shadow-[0_5px_5px_rgb(255,255,255,0.25)] transition-all' : '')}>
                   <img src={track.image[2]['#text']} alt={track.name} className={"w-20 h-20 " + (track['@attr']?.nowplaying ? 'rounded-full animate-spin-slow' : 'rounded-xl')} />
                   <div>  
                       <a href={track.url} className="text-2xl">{song_name}</a>

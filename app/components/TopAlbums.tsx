@@ -59,9 +59,8 @@ export const TopAlbums = () => {
       <h1 className="text-4xl font-bold">Top Albums</h1>
       <div className="flex flex-col gap-2">
         {album_list?.map(function(album?) {
-            console.log(album.image[2]['#text'])
             return (
-              <div className="flex items-center gap-6 p-4 rounded-xl bg-neutral-900">
+              <div key={album.mbid} className="flex items-center gap-6 p-4 rounded-xl bg-neutral-900">
                   <img src={album.image[2]['#text']} alt={album.name} className="w-20 h-20 rounded-xl" />
                   <div>  
                       <a href={album.url} className="text-2xl">{album.name}</a>

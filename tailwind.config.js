@@ -5,14 +5,14 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
-  plugins: [
-    require('tailwind-scrollbar')({nocompatible: true}),
-  ],
   theme: {
     extend: {
-      animation: {
-        'spin-slow': 'spin 5s linear infinite',
-      }
-    }
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'gradient-conic':
+          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      },
+    },
   },
+  plugins: [],
 }

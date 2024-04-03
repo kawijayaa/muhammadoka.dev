@@ -63,6 +63,17 @@ function convertToRoman(num) {
     id="projects">
     <p class="text-5xl text-cyan-500">#projects</p>
     <div class="flex flex-col gap-2">
+      <div class="flex gap-2 items-center">
+        <p>└──</p>
+        <v-icon name="co-go" scale="2" />
+        <p>scele_gcal</p>
+      </div>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;└── README.md -> Fetch SCeLe assignments and adds them to your Google Tasks.</p>
+      <a href="https://github.com/kawijayaa/scele_gcal" target="_blank" rel="noreferrer">&nbsp;&nbsp;&nbsp;&nbsp;└──
+        github ->
+        <span class="text-cyan-500">https://github.com/kawijayaa/scele_gcal</span></a>
+    </div>
+    <div class="flex flex-col gap-2">
       <div class="flex gap-3 items-center">
         <p>└──</p>
         <v-icon name="fa-rust" scale="1.5" />

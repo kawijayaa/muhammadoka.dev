@@ -125,8 +125,8 @@ function convertToRoman(num) {
         .config -> <span class="text-cyan-500">https://github.com/kawijayaa/dotfiles</span></a>
       <a href="https://github.com/neovim/neovim" target="_blank" rel="noreferrer">&nbsp;&nbsp;&nbsp;&nbsp;└──
         neovim -> <span class="text-cyan-500">https://github.com/neovim/neovim</span></a>
-      <a href="https://github.com/microsoft/terminal" target="_blank" rel="noreferrer">&nbsp;&nbsp;&nbsp;&nbsp;└──
-        windows terminal -> <span class="text-cyan-500">https://github.com/microsoft/terminal</span></a>
+      <a href="https://github.com/alacritty/alacritty" target="_blank" rel="noreferrer">&nbsp;&nbsp;&nbsp;&nbsp;└──
+        alacritty -> <span class="text-cyan-500">https://github.com/alacritty/alacritty</span></a>
       <a href="https://github.com/tmux/tmux" target="_blank" rel="noreferrer">&nbsp;&nbsp;&nbsp;&nbsp;└──
         tmux -> <span class="text-cyan-500">https://github.com/tmux/tmux</span></a>
       <a href="https://github.com/ohmyzsh/ohmyzsh" target="_blank" rel="noreferrer">&nbsp;&nbsp;&nbsp;&nbsp;└──

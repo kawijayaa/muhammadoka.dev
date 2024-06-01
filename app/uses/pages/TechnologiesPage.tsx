@@ -1,5 +1,5 @@
 import { FaPython, FaRust, FaJava, FaDocker, FaGit } from 'react-icons/fa';
-import { SiTypescript, SiJavascript, SiGooglecloud, SiCaddy, SiPostgresql, SiDjango, SiSpring, SiReact, SiNextdotjs } from 'react-icons/si';
+import { SiTypescript, SiJavascript, SiGooglecloud, SiCaddy, SiPostgresql, SiDjango, SiSpring, SiReact, SiNextdotjs, SiTailwindcss } from 'react-icons/si';
 import { FaGolang } from 'react-icons/fa6';
 
 export default function TechnologiesPage() {
@@ -35,6 +35,9 @@ export default function TechnologiesPage() {
         </a>
         <a href='https://nextjs.org/' target='_blank'>
           <SiNextdotjs title='Next.js' className='text-6xl hover:text-cyan-500' />
+        </a>
+        <a href='https://tailwindcss.com/' target='_blank'>
+          <SiTailwindcss title='Tailwind CSS' className='text-6xl hover:text-cyan-500' />
         </a>
         <a href='https://postgresql.org/' target='_blank'>
           <SiPostgresql title='PostgreSQL' className='text-6xl hover:text-cyan-500' />

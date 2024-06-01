@@ -1,9 +1,9 @@
 'use client';
 
 import { useState } from "react";
-import TechnologiesPage from "./TechnologiesPage";
-import SoftwaresPage from "./SoftwaresPage";
-import HardwaresPage from "./HardwaresPage";
+import TechnologiesPage from "./pages/TechnologiesPage";
+import SoftwaresPage from "./pages/SoftwaresPage";
+import HardwaresPage from "./pages/HardwaresPage";
 import Navbar from "../components/Navbar";
 import Title from "../components/Title";
 

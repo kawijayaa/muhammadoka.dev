@@ -6,9 +6,9 @@ function useFetchLastFM() {
 
   switch (lastFM.status) {
     case 'connecting':
-      return <p className="text-sm md:text-lg">Loading...</p>
+      return <p className="text-sm md:text-lg">Loading Last.fm...</p>
     case 'error':
-      return <p className="text-sm md:text-lg text-red-500">Cannot connect to Last.fm API!</p>
+      return <p className="text-sm md:text-lg text-red-500">Cannot connect to Last.fm!</p>
     case 'playing':
       let songName = lastFM.song.name.split(/[(|-]/)[0].trim()
       return (
@@ -26,7 +26,7 @@ function useFetchLastFM() {
         </div>
       )
     case 'idle':
-      return <p className="text-sm md:text-lg">Currently not playing any songs</p>
+      return ""
   }
 }
 

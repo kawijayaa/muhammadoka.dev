@@ -1,13 +1,11 @@
+import Navbar from "../components/Navbar";
+import Title from "../components/Title";
+
 export default function About() {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center md:justify-between h-screen md:h-full gap-8 md:gap-16 p-8">
-      <div className="flex justify-center md:justify-start items-center gap-4 w-full md:w-auto">
-        <a className="text-cyan-500 text-7xl justify-self-start flex-1 md:flex-none" href="/">&lt;</a>
-        <h1 className="flex gap-4 text-5xl font-bold tracking-wide">
-          /about
-        </h1>
-        <div className="flex-1 md:flex-none"></div>
-      </div>
+    <div className="flex flex-col md:flex-row items-center justify-center md:justify-between min-h-screen md:h-full gap-8 md:gap-16 py-16 md:py-8 p-8">
+      <Navbar />
+      <Title title="about" />
       <div className="md:w-1/2 flex flex-col gap-4">
         <p className="md:text-lg">
           hello 👋! my name is muhammad <span className="text-cyan-500">oka</span>. currently a third year computer science student @

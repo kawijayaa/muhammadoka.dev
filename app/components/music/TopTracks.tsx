@@ -1,5 +1,6 @@
 import useSWR from 'swr';
 import { RecentTracks } from 'use-last-fm';
+import Image from 'next/image';
 
 export interface LastFMResponseBody {
   toptracks: RecentTracks;
@@ -34,11 +35,15 @@ const GetImageUrl = (props: { track: string, artist: string }) => {
 
   if (imageUrl) {
     return (
-      <img src={imageUrl} alt={songName} className="w-16 rounded-full" />
+      <div className='w-16 h-16 relative'>
+        <Image src={imageUrl} alt={songName} fill className="rounded-full" />
+      </div>
     );
   } else {
     return (
-      <img src='https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png' alt={songName} className="w-16 rounded-full" />
+      <div className='w-16 h-16 relative'>
+        <Image src='https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png' alt={songName} fill className="rounded-full" />
+      </div>
     );
   }
 }

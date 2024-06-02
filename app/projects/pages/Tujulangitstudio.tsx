@@ -10,7 +10,7 @@ export default function Tujulangitstudio() {
         </p>
         <a href="https://tujulangitstudio.com/" className="flex flex-col justify-center hover:underline hover:text-cyan-500" target="_blank">
           <div className="bg-stone-700 w-full flex justify-center text-center py-2 rounded-t-lg text-xs md:text-sm">
-            <div className="bg-stone-800 w-max px-4 py-1 rounded-full">
+            <div className="bg-stone-800 w-2/3 min-w-max px-8 py-1 rounded-full">
               https://tujulangitstudio.com/
             </div>
           </div>

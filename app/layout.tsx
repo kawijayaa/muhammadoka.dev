@@ -6,7 +6,7 @@ const poppins = Poppins({ weight: ["300", "500", "700"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "muhammadoka.dev",
-  description: "Muhammad Oka's personal website",
+  description: "telling computeres what to do since 2012.",
 };
 
 export default function RootLayout({
@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="bg-stone-900">
       <head>
-        <title>muhammadoka.dev</title>
+        <title>muhammadoka</title>
       </head>
       <body className={`${poppins.className} bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-stone-800 to-stone-900 to-75% text-white h-dvh flex flex-col relative`}>
         <div className="w-full h-full absolute flex justify-center items-center blur-3xl overflow-hidden">

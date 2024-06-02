@@ -12,7 +12,7 @@ export default function Projects() {
   const [page, setPage] = useState(0);
 
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center md:justify-between min-h-screen md:h-full gap-8 md:gap-16 py-16 md:py-8 p-8">
+    <div className="flex flex-col md:flex-row items-center justify-center md:justify-between min-h-full gap-8 md:gap-16 py-16 md:py-8 p-8">
       <Navbar />
       <Title title="projects" />
       <div className="flex flex-col gap-4 justify-center md:justify-start px-4 md:px-0">

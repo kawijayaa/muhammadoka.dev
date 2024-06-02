@@ -31,7 +31,7 @@ export default function Navbar() {
       <div className="fixed flex sm:hidden justify-center items-center bottom-0 w-full py-4 bg-gradient-to-b from-transparent to-stone-950 z-30">
         <IoMenu className="text-4xl" onClick={() => setIsOpen(!isOpen)} />
       </div>
-      <div className={`${isOpen ? "flex backdrop-blur-md" : "hidden"} flex-col gap-8 justify-center items-center fixed w-full h-full bg-stone-950 bg-opacity-30 top-0 left-0 z-20 overflow-hidden`}>
+      <div className={`${isOpen ? "flex backdrop-blur-md" : "hidden"} flex-col gap-8 justify-center items-center fixed w-full h-full bg-stone-950 bg-opacity-30 top-0 left-0 z-20 overflow-hidden`} onClick={() => setIsOpen(!isOpen)}>
         <a href="/" className='tracking-widest'>home</a>
         <a href="/about" className={`${usePathname() === "/about" ? "text-cyan-500 underline" : ""} hover:underline tracking-widest`}>about</a>
         <a href="/projects" className={`${usePathname() === "/projects" ? "text-cyan-500 underline" : ""} hover:underline tracking-widest`}>projects</a>

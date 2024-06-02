@@ -25,7 +25,7 @@ export default function Experiences() {
             <li>Assisted the lecturer in releasing and grading 10 labs and 4 assignments, ensuring a smooth learning experience.</li>
           </ul>
         </div>
-        <a href="https://www.linkedin.com/in/muhammadoka/" target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/muhammadoka/" target="_blank" rel="noreferrer" className="self-center md:self-start">
           <div className="flex items-center gap-2 hover:underline hover:text-cyan-500">
             <SiLinkedin className="h-8 w-8 text-white" />
             <p>more on linkedin</p>

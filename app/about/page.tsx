@@ -28,12 +28,6 @@ export default function About() {
           beyond computer science, i am a car-guy and also enjoy motorcycles. music is also one of my longest hobbies,
           listening to broad ranges of genres from jazz-fusion to metal to bedroom pop, and playing the piano and guitar for fun.
         </p>
-        <p className="md:text-lg">
-          currently a network, security and operating systems lead @
-          <a href="https://ristek.cs.ui.ac.id/" target="_blank" rel="noreferrer" className="text-cyan-500"> RISTEK</a> and
-          capture-the-flag vice person-in-charge @
-          <a href="https://compfest.id/" target="_blank" rel="noreferrer" className="text-cyan-500"> COMPFEST16</a>.
-        </p>
       </div>
     </div>
   );

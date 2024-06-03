@@ -1,4 +1,4 @@
-import { SiNeovim, SiArc, SiAlacritty, SiTmux } from 'react-icons/si';
+import { SiNeovim, SiArc, SiWindowsterminal, SiTmux } from 'react-icons/si';
 import { GrConfigure } from 'react-icons/gr';
 
 export default function SoftwaresPage() {
@@ -8,9 +8,9 @@ export default function SoftwaresPage() {
         <SiNeovim className='w-12 h-12 text-white' />
         <div className='text-2xl'>Neovim</div>
       </a>
-      <a href='https://alacritty.org/' target='_blank' rel='noreferrer' className='flex items-center gap-4 hover:underline hover:text-cyan-500 cursor-pointer'>
-        <SiAlacritty className='w-12 h-12 text-white' />
-        <div className='text-2xl'>Alacritty</div>
+      <a href='https://github.com/microsoft/terminal' target='_blank' rel='noreferrer' className='flex items-center gap-4 hover:underline hover:text-cyan-500 cursor-pointer'>
+        <SiWindowsterminal className='w-12 h-12 text-white' />
+        <div className='text-2xl'>Windows Terminal</div>
       </a>
       <a href='https://github.com/tmux/tmux' target='_blank' rel='noreferrer' className='flex items-center gap-4 hover:underline hover:text-cyan-500 cursor-pointer'>
         <SiTmux className='w-12 h-12 text-white' />

@@ -6,7 +6,7 @@ const poppins = Poppins({ weight: ["300", "500", "700"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "muhammadoka.dev",
-  description: "telling computeres what to do since 2012.",
+  description: "telling computers what to do since 2012.",
 };
 
 export default function RootLayout({

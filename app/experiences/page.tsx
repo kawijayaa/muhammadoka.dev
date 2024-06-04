@@ -10,7 +10,7 @@ export default function Experiences() {
       <div className="md:w-1/2 flex flex-col gap-4">
         <div>
           <p className="text-gray-300">Nov 2023 - Present</p>
-          <h1 className="text-xl font-bold text-cyan-500">Vice Person-in-Charge CTF COMPFEST16</h1>
+          <h1 className="text-xl font-bold underline decoration-dashed decoration-cyan-500 underline-offset-2 text-balance">Vice Person-in-Charge CTF COMPFEST16</h1>
           <ul className="list-disc list-inside">
             <li>Managed a team of problem-setters, DevOps and administrators to ensure smooth operation of the competition.</li>
             <li>Managed the CTF COMPFEST16 competition infrastructure, including the platform and challenge services.</li>
@@ -18,7 +18,7 @@ export default function Experiences() {
         </div>
         <div>
           <p className="text-gray-300">Jan 2024 - Jun 2024</p>
-          <h1 className="text-xl font-bold text-cyan-500">Teaching Assistant of Programming Foundations 2</h1>
+          <h1 className="text-xl font-bold underline decoration-dashed decoration-cyan-500 underline-offset-2 text-balance">Teaching Assistant of Programming Foundations 2</h1>
           <ul className="list-disc list-inside">
             <li>Led lab sessions with three other teaching assistants for students to enhance their programming skills through hands-on practice.</li>
             <li>Provided mentorship to 10 students, helping them with assignments and labs throughout the course.</li>

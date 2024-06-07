@@ -22,6 +22,7 @@ export default function Navbar() {
           <a href="/" className='hover:underline'>home</a>
           <a href="/about" className={`${usePathname() === "/about" ? "text-cyan-500 underline" : ""} hover:underline`}>about</a>
           <a href="/projects" className={`${usePathname() === "/projects" ? "text-cyan-500 underline" : ""} hover:underline`}>projects</a>
+          <a href="https://archive.muhammadoka.dev" className="hover:underline">archive</a>
           <a href="/experiences" className={`${usePathname() === "/experiences" ? "text-cyan-500 underline" : ""} hover:underline`}>experiences</a>
           <a href="/uses" className={`${usePathname() === "/uses" ? "text-cyan-500 underline" : ""} hover:underline`}>uses</a>
           <a href="/music" className={`${usePathname() === "/music" ? "text-cyan-500 underline" : ""} hover:underline`}>music</a>
@@ -35,6 +36,7 @@ export default function Navbar() {
         <a href="/" className='tracking-widest'>home</a>
         <a href="/about" className={`${usePathname() === "/about" ? "text-cyan-500 underline" : ""} hover:underline tracking-widest`}>about</a>
         <a href="/projects" className={`${usePathname() === "/projects" ? "text-cyan-500 underline" : ""} hover:underline tracking-widest`}>projects</a>
+        <a href="https://archive.muhammadoka.dev" className="hover:underline tracking-widest">archive</a>
         <a href="/experiences" className={`${usePathname() === "/experiences" ? "text-cyan-500 underline" : ""} hover:underline tracking-widest`}>experiences</a>
         <a href="/uses" className={`${usePathname() === "/uses" ? "text-cyan-500 underline" : ""} hover:underline tracking-widest`}>uses</a>
         <a href="/music" className={`${usePathname() === "/music" ? "text-cyan-500 underline" : ""} hover:underline tracking-widest`}>music</a>

@@ -12,7 +12,7 @@ export default function Experiences() {
           <p className="text-gray-300">Jan 2024 - Present</p>
           <h1 className="text-xl font-bold underline decoration-dashed decoration-cyan-500 underline-offset-2 text-balance">Lead of Network, Security and Operating Systems SIG</h1>
           <ul className="list-disc list-inside">
-            <li>Delivered materials about Forensics in CTF in an internal class program. Topics delivered includes packet capture and analysis using Wireshark and memory forensics analysis using Volatility3</li>
+            <li>Delivered materials about Forensics in CTF in an internal class program. Topics delivered includes packet capture and analysis using Wireshark and memory forensics analysis using Volatility3.</li>
           </ul>
         </div>
         <div>

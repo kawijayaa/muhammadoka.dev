@@ -9,11 +9,18 @@ export default function Experiences() {
       <Title title="experiences" />
       <div className="md:w-1/2 flex flex-col gap-4">
         <div>
+          <p className="text-gray-300">Jan 2024 - Present</p>
+          <h1 className="text-xl font-bold underline decoration-dashed decoration-cyan-500 underline-offset-2 text-balance">Lead of Network, Security and Operating Systems SIG</h1>
+          <ul className="list-disc list-inside">
+            <li>Delivered materials about Forensics in CTF in an internal class program. Topics delivered includes packet capture and analysis using Wireshark and memory forensics analysis using Volatility3.</li>
+          </ul>
+        </div>
+        <div>
           <p className="text-gray-300">Nov 2023 - Present</p>
           <h1 className="text-xl font-bold underline decoration-dashed decoration-cyan-500 underline-offset-2 text-balance">Vice Person-in-Charge CTF COMPFEST16</h1>
           <ul className="list-disc list-inside">
-            <li>Managed a team of problem-setters, DevOps and administrators to ensure smooth operation of the competition.</li>
-            <li>Managed the CTF COMPFEST16 competition infrastructure, including the platform and challenge services.</li>
+            <li>Managed a 12-man team of Scientific Committees, Technical Committee and Administrators, each responsible for developing problem-sets, deploying and maintaining the competition infrastructure, and managing participants administrational needs, to ensure smooth operations of the competition.</li>
+            <li>Managed the competition infrastructure, including the platform and challenge cloud instances and their respective services.</li>
           </ul>
         </div>
         <div>

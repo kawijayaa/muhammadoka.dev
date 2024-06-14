@@ -11,9 +11,9 @@ export default function Home() {
       </div>
       <div className="flex flex-col text-right gap-4 md:gap-12 tracking-widest md:text-xl font-light">
         <a href="/about" className="hover:underline hover:text-cyan-500">about</a>
+        <a href="/experiences" className="hover:underline hover:text-cyan-500">experiences</a>
         <a href="/projects" className="hover:underline hover:text-cyan-500">projects</a>
         <a href="https://archive.muhammadoka.dev" className="hover:underline hover:text-cyan-500">archive</a>
-        <a href="/experiences" className="hover:underline hover:text-cyan-500">experiences</a>
         <a href="/uses" className="hover:underline hover:text-cyan-500">uses</a>
         <a href="/music" className="hover:underline hover:text-cyan-500">music</a>
         <a href="/socials" className="hover:underline hover:text-cyan-500">socials</a>

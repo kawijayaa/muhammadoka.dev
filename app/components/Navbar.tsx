@@ -21,9 +21,9 @@ export default function Navbar() {
         <div className="flex justify-center items-center tracking-widest gap-4">
           <a href="/" className='hover:underline'>home</a>
           <a href="/about" className={`${usePathname() === "/about" ? "text-cyan-500 underline" : ""} hover:underline`}>about</a>
+          <a href="/experiences" className={`${usePathname() === "/experiences" ? "text-cyan-500 underline" : ""} hover:underline`}>experiences</a>
           <a href="/projects" className={`${usePathname() === "/projects" ? "text-cyan-500 underline" : ""} hover:underline`}>projects</a>
           <a href="https://archive.muhammadoka.dev" className="hover:underline">archive</a>
-          <a href="/experiences" className={`${usePathname() === "/experiences" ? "text-cyan-500 underline" : ""} hover:underline`}>experiences</a>
           <a href="/uses" className={`${usePathname() === "/uses" ? "text-cyan-500 underline" : ""} hover:underline`}>uses</a>
           <a href="/music" className={`${usePathname() === "/music" ? "text-cyan-500 underline" : ""} hover:underline`}>music</a>
           <a href="/socials" className={`${usePathname() === "/socials" ? "text-cyan-500 underline" : ""} hover:underline`}>socials</a>
@@ -35,9 +35,9 @@ export default function Navbar() {
       <div className={`${isOpen ? "flex backdrop-blur-md" : "hidden"} flex-col gap-8 justify-center items-center fixed w-full h-full bg-stone-950 bg-opacity-30 top-0 left-0 z-20 overflow-hidden`} onClick={() => setIsOpen(!isOpen)}>
         <a href="/" className='tracking-widest'>home</a>
         <a href="/about" className={`${usePathname() === "/about" ? "text-cyan-500 underline" : ""} hover:underline tracking-widest`}>about</a>
+        <a href="/experiences" className={`${usePathname() === "/experiences" ? "text-cyan-500 underline" : ""} hover:underline tracking-widest`}>experiences</a>
         <a href="/projects" className={`${usePathname() === "/projects" ? "text-cyan-500 underline" : ""} hover:underline tracking-widest`}>projects</a>
         <a href="https://archive.muhammadoka.dev" className="hover:underline tracking-widest">archive</a>
-        <a href="/experiences" className={`${usePathname() === "/experiences" ? "text-cyan-500 underline" : ""} hover:underline tracking-widest`}>experiences</a>
         <a href="/uses" className={`${usePathname() === "/uses" ? "text-cyan-500 underline" : ""} hover:underline tracking-widest`}>uses</a>
         <a href="/music" className={`${usePathname() === "/music" ? "text-cyan-500 underline" : ""} hover:underline tracking-widest`}>music</a>
         <a href="/socials" className={`${usePathname() === "/socials" ? "text-cyan-500 underline" : ""} hover:underline tracking-widest`}>socials</a>

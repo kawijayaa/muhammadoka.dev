@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { IoMenu } from 'react-icons/io5';
 
-export default function Navbar() {
+export default function Navbar(props: any) {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
@@ -17,7 +17,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="absolute bottom-4 left-0 w-full hidden sm:block">
+      <nav className={`absolute bottom-4 left-0 w-full hidden ${props.home ? "" : "sm:block"}`}>
         <div className="flex justify-center items-center tracking-widest gap-4">
           <a href="/" className='hover:underline'>home</a>
           <a href="/about" className={`${usePathname() === "/about" ? "text-cyan-500 underline" : ""} hover:underline`}>about</a>
@@ -29,7 +29,7 @@ export default function Navbar() {
           <a href="/socials" className={`${usePathname() === "/socials" ? "text-cyan-500 underline" : ""} hover:underline`}>socials</a>
         </div>
       </nav>
-      <div className="fixed flex sm:hidden justify-center items-center bottom-0 w-full py-4 bg-gradient-to-b from-transparent to-stone-950 z-30">
+      <div className={`fixed flex sm:hidden justify-center items-center bottom-0 w-full py-4 bg-gradient-to-b from-transparent to-stone-950 z-30`}>
         <IoMenu className="text-4xl" onClick={() => setIsOpen(!isOpen)} />
       </div>
       <div className={`${isOpen ? "flex backdrop-blur-md" : "hidden"} flex-col gap-8 justify-center items-center fixed w-full h-full bg-stone-950 bg-opacity-30 top-0 left-0 z-20 overflow-hidden`} onClick={() => setIsOpen(!isOpen)}>

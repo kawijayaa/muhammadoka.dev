@@ -11,13 +11,15 @@ export default function Experiences() {
         <div>
           <p className="text-gray-300">Jan 2024 - Present</p>
           <h1 className="text-xl font-bold underline decoration-dashed decoration-cyan-500 underline-offset-2 text-balance">Lead of Network, Security and Operating Systems SIG</h1>
+          <a href="https://ristek.cs.ui.ac.id" target="_blank" rel="noreferrer" className="text-gray-300">RISTEK Fasilkom UI</a>
           <ul className="list-disc list-inside">
             <li>Delivered materials about Forensics in CTF in an internal class program. Topics delivered includes packet capture and analysis using Wireshark and memory forensics analysis using Volatility3.</li>
           </ul>
         </div>
         <div>
           <p className="text-gray-300">Nov 2023 - Present</p>
-          <h1 className="text-xl font-bold underline decoration-dashed decoration-cyan-500 underline-offset-2 text-balance">Vice Person-in-Charge CTF COMPFEST16</h1>
+          <h1 className="text-xl font-bold underline decoration-dashed decoration-cyan-500 underline-offset-2 text-balance">Vice Person-in-Charge of Capture The Flag Competition</h1>
+          <a href="https://compfest.id" target="_blank" rel="noreferrer" className="text-gray-300">COMPFEST 16</a>
           <ul className="list-disc list-inside">
             <li>Managed a 12-man team of Scientific Committees, Technical Committee and Administrators, each responsible for developing problem-sets, deploying and maintaining the competition infrastructure, and managing participants administrational needs, to ensure smooth operations of the competition.</li>
             <li>Managed the competition infrastructure, including the platform and challenge cloud instances and their respective services.</li>
@@ -26,10 +28,11 @@ export default function Experiences() {
         <div>
           <p className="text-gray-300">Jan 2024 - Jun 2024</p>
           <h1 className="text-xl font-bold underline decoration-dashed decoration-cyan-500 underline-offset-2 text-balance">Teaching Assistant of Programming Foundations 2</h1>
+          <a href="https://cs.ui.ac.id" target="_blank" rel="noreferrer" className="text-gray-300">Faculty of Computer Science Universitas Indonesia</a>
           <ul className="list-disc list-inside">
-            <li>Led lab sessions with three other teaching assistants for students to enhance their programming skills through hands-on practice.</li>
+            <li>Led lab sessions with three other teaching assistants for students to enhance their programming skills in Go through hands-on practice.</li>
             <li>Provided mentorship to 10 students, helping them with assignments and labs throughout the course.</li>
-            <li>Assisted the lecturer in releasing and grading 10 labs and 4 assignments, ensuring a smooth learning experience.</li>
+            <li>Assisted the lecturer in releasing and grading 6 labs and 3 assignments, ensuring a smooth learning experience.</li>
           </ul>
         </div>
         <a href="https://www.linkedin.com/in/muhammadoka/" target="_blank" rel="noreferrer" className="self-center md:self-start">

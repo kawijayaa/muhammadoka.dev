@@ -9,18 +9,16 @@ export default function Kepo2023() {
           A website for the Kedubes Expo 2023, an event by SMAN 12 Jakarta.
         </p>
         <a href="https://kepo2023.vercel.app/" className="flex flex-col justify-center hover:underline hover:text-cyan-500" target="_blank">
-          <div className="bg-stone-700 w-full flex justify-center text-center py-2 rounded-t-lg text-xs md:text-sm">
-            <div className="bg-stone-800 w-2/3 min-w-max px-8 py-1 rounded-full">
-              https://kepo2023.vercel.app/
-            </div>
+          <div className="bg-stone-700 w-full flex flex-col justify-center text-center p-2 rounded-lg text-xs md:text-sm gap-2">
+            <span>kepo2023.vercel.app</span>
+            <Image
+              src="/kepo2023.png"
+              alt="Kepo 2023"
+              width={500}
+              height={500}
+              className="rounded-lg"
+            />
           </div>
-          <Image
-            src="/kepo2023.png"
-            alt="Kepo 2023"
-            width={500}
-            height={500}
-            className="rounded-b-lg"
-          />
         </a>
         <div className="flex items-center gap-4">
           <p>built with</p>

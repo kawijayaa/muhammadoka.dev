@@ -5,7 +5,7 @@ import Title from "../components/Title";
 import Kepo2023 from "./pages/Kepo2023";
 import Tujulangitstudio from "./pages/Tujulangitstudio";
 import CekSIAK from "./pages/CekSIAK";
-import Goturing from "./pages/Goturing";
+import Pintas from "./pages/Pintas";
 import { useState } from "react";
 
 export default function Projects() {
@@ -19,13 +19,13 @@ export default function Projects() {
         <div className="flex text-sm md:text-lg gap-4 justify-center md:justify-end items-center">
           <a onClick={() => setPage(0)} className={`${page === 0 ? 'underline text-cyan-500' : ''} hover:underline cursor-pointer`}>kepo 2023</a>
           <a onClick={() => setPage(1)} className={`${page === 1 ? 'underline text-cyan-500' : ''} hover:underline cursor-pointer`}>tujulangitstudio</a>
-          <a onClick={() => setPage(2)} className={`${page === 2 ? 'underline text-cyan-500' : ''} hover:underline cursor-pointer`}>ceksiak</a>
-          <a onClick={() => setPage(3)} className={`${page === 3 ? 'underline text-cyan-500' : ''} hover:underline cursor-pointer`}>goturing</a>
+          <a onClick={() => setPage(2)} className={`${page === 2 ? 'underline text-cyan-500' : ''} hover:underline cursor-pointer`}>pintas</a>
+          <a onClick={() => setPage(3)} className={`${page === 3 ? 'underline text-cyan-500' : ''} hover:underline cursor-pointer`}>ceksiak</a>
         </div>
         {page === 0 && <Kepo2023 />}
         {page === 1 && <Tujulangitstudio />}
-        {page === 2 && <CekSIAK />}
-        {page === 3 && <Goturing />}
+        {page === 2 && <Pintas />}
+        {page === 3 && <CekSIAK />}
       </div>
     </div>
   );

@@ -1,12 +1,12 @@
 import Image from 'next/image';
-import { SiGithub, SiTailwindcss } from "react-icons/si";
+import { SiGithub, SiTailwindcss, SiHtmx } from "react-icons/si";
 import { FaGolang } from "react-icons/fa6";
 
 export default function Pintas() {
   return (
     <div className="flex flex-col items-center justify-center">
       <div className="flex flex-col gap-4 items-center md:items-end">
-        <p>A URL shortener website built with Gin, GORM and Tailwind CSS.</p>
+        <p>A URL shortener website built with HTMX, Gin, GORM and Tailwind CSS.</p>
         <div className="flex flex-col justify-center">
           <div className="bg-stone-700 w-full flex flex-col justify-center text-center p-2 rounded-lg text-xs md:text-sm gap-2">
             <span>localhost:8080</span>
@@ -23,6 +23,7 @@ export default function Pintas() {
           <p>built with</p>
           <div className="flex items-center gap-2">
             <FaGolang className="w-6 h-6 md:w-8 md:h-8" />
+            <SiHtmx className="w-6 h-6 md:w-8 md:h-8" />
             <SiTailwindcss className="w-6 h-6 md:w-8 md:h-8" />
           </div>
         </div>

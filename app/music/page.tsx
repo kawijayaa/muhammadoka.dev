@@ -5,6 +5,7 @@ import { TopAlbums } from "./pages/TopAlbums";
 import { TopTracks } from "./pages/TopTracks";
 import Navbar from "../components/Navbar";
 import Title from "../components/Title";
+import { FaLastfm } from "react-icons/fa";
 import { useState } from "react";
 
 export default function MusicPage() {
@@ -26,8 +27,9 @@ export default function MusicPage() {
         {page === 0 && <RecentlyPlayedTracks />}
         {page === 1 && <TopAlbums />}
         {page === 2 && <TopTracks />}
-        <a href="https://last.fm/user/okeeeeng" className="hidden md:block text-center md:text-right text-sm hover:underline hover:text-cyan-500 cursor-pointer" target="_blank">
-          more on last.fm
+        <a href="https://last.fm/user/okeeeeng" className="flex justify-end items-center gap-2 hover:underline hover:text-cyan-500" target="_blank">
+          <p>more on</p>
+          <FaLastfm className="w-6 h-6 md:w-8 md:h-8 text-white" />
         </a>
       </div>
     </div>

@@ -1,5 +1,5 @@
-import Reveal from "../animation/Reveal";
-import RevealChildren from "../animation/RevealChildren";
+import Reveal from "@/components/animation/Reveal";
+import RevealChildren from "@/components/animation/RevealChildren";
 
 export default function Experiences() {
   return (

@@ -1,12 +1,12 @@
 "use client";
 
-import Hero from "./components/home/Hero";
-import Reveal from "./components/animation/Reveal";
-import About from "./components/home/About";
-import Experiences from "./components/home/Experiences";
-import Stack from "./components/home/Stack";
-import Awards from "./components/home/Awards";
-import Footer from "./components/home/Footer";
+import Hero from "@/components/Hero";
+import Reveal from "@/components/animation/Reveal";
+import About from "@/components/About";
+import Experiences from "@/components/Experiences";
+import Stack from "@/components/Stack";
+import Awards from "@/components/Awards";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (

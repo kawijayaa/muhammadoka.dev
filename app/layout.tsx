@@ -5,8 +5,9 @@ import "./globals.css";
 const font = Plus_Jakarta_Sans({ weight: ["400", "600", "700"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "muhammadoka.dev",
-  description: "telling computers what to do since 2012.",
+  title: "muhammadoka",
+  description: "Passionate cyber security student based in Brisbane, Australia. Interested in Cyber Security, Cloud Infrastructure, and Web Development. Plays capture-the-flag competitions, solving Forensics and Web exploitation challenges.",
+  keywords: ['cyber security', 'cloud', 'cloud infrastructure', 'web development', 'capture the flag', 'forensics', 'web exploitation', 'ctf', 'muhammad oka'],
 };
 
 export default function RootLayout({
@@ -15,19 +16,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="bg-stone-900">
+    <html lang="en" className="bg-stone-950 bg-[linear-gradient(to_right,#57534e05_2px,transparent_2px),linear-gradient(to_bottom,#57534e05_2px,transparent_2px)] bg-[size:36px_36px]">
       <head>
         <title>muhammadoka</title>
       </head>
-      <body className={`${font.className} bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-stone-800 to-stone-900 to-75% text-white h-dvh flex flex-col relative`}>
-        <div className="w-full h-full absolute flex justify-center items-center blur-3xl overflow-hidden">
-          <div className="w-64 h-64 bg-purple-900 rounded-full animate-blob animation-delay-2000 mix-blend-screen absolute left-1/2"></div>
-          <div className="w-64 h-64 bg-cyan-900 rounded-full animate-blob mix-blend-screen absolute"></div>
-          <div className="w-64 h-64 bg-emerald-900 rounded-full animate-blob animation-delay-5000 mix-blend-screen absolute left-1/3"></div>
-        </div>
-        <div className="w-full h-full z-50">
-          {children}
-        </div>
+      <body className={`${font.className} text-white overflow-x-hidden`}>
+        {children}
       </body>
     </html >
   );

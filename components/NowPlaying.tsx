@@ -1,4 +1,4 @@
-import { useLastFM, State } from "use-last-fm"
+import { useLastFM } from "use-last-fm"
 import { motion, useCycle } from "framer-motion"
 import Image from "next/image"
 import { useEffect, useRef, useState } from "react";
@@ -28,9 +28,13 @@ function useFetchLastFM() {
     { x: 28 },
   )
 
+  function startCycle() {
+    setTimeout(() => cycle(1), 1400)
+    setTimeout(() => cycleVinyl(1), 2000)
+  }
+
   useEffect(() => {
     if (lastFM.status === 'playing' && lastFM.song?.name !== lastFMPrev.song?.name) {
-      console.log('playing')
       if (hidden) {
         setHidden(() => false)
       }
@@ -42,14 +46,13 @@ function useFetchLastFM() {
         setSongUrl(lastFM.song?.url || '')
         setArtistName(lastFM.song?.artist || '')
         setAlbumArt(lastFM.song?.art || '')
-      }, 400)
+      }, 1000)
 
-      setTimeout(() => { cycle(1) }, 1400)
-      setTimeout(() => { cycleVinyl(1) }, 2000)
+      startCycle()
     }
 
+
     if (lastFM.status !== 'playing' && !hidden) {
-      console.log('stopping')
       cycle(0)
       cycleVinyl(0)
       setTimeout(() => setHidden(() => true), 400)
@@ -73,7 +76,7 @@ function useFetchLastFM() {
             className="absolute w-full h-full bg-black rounded-full">
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-1/3 h-1/3 bg-white rounded-full"></div>
           </motion.div>
-          <Image src={albumArt} alt={songName} fill />
+          <Image src={albumArt} alt={songName} fill onLoad={startCycle} />
         </div>
         <div className="ml-5">
           <a href={songUrl} target="_blank" rel="noreferrer" className="text-lg font-bold">{songName}</a>

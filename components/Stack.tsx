@@ -1,4 +1,4 @@
-import Reveal from "../animation/Reveal";
+import Reveal from "@/components/animation/Reveal";
 import Marquee from "react-fast-marquee";
 import { FaPython, FaJava, FaRust, FaReact, FaDocker, FaGitAlt, FaGithub } from "react-icons/fa";
 import { FaGolang } from "react-icons/fa6"

@@ -1,6 +1,6 @@
 # muhammadoka.dev -- 💻
 
-![](https://i.imgur.com/vlElf8V.png)
+![](https://i.imgur.com/dtgnZLQ.png)
 
 ## About
 

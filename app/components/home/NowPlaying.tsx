@@ -23,6 +23,10 @@ function useFetchLastFM() {
     { opacity: 0, y: 32 },
     { opacity: 1, y: 0 },
   )
+  const [animateVinyl, cycleVinyl] = useCycle(
+    { x: 0 },
+    { x: 28 },
+  )
 
   useEffect(() => {
     if (lastFM.status === 'playing' && lastFM.song?.name !== lastFMPrev.song?.name) {
@@ -31,6 +35,7 @@ function useFetchLastFM() {
         setHidden(() => false)
       }
       cycle(0)
+      cycleVinyl(0)
 
       setTimeout(() => {
         setSongName(lastFM.song?.name.split(/[(|-]/)[0].trim() || '')
@@ -39,12 +44,14 @@ function useFetchLastFM() {
         setAlbumArt(lastFM.song?.art || '')
       }, 400)
 
-      setTimeout(() => cycle(1), 800)
+      setTimeout(() => { cycle(1) }, 1400)
+      setTimeout(() => { cycleVinyl(1) }, 2000)
     }
 
     if (lastFM.status !== 'playing' && !hidden) {
       console.log('stopping')
       cycle(0)
+      cycleVinyl(0)
       setTimeout(() => setHidden(() => true), 400)
     }
   }, [lastFM.status, lastFM.song, hidden])
@@ -53,24 +60,24 @@ function useFetchLastFM() {
     <motion.div
       initial={{ opacity: 0, y: 32 }}
       animate={animate}
-      transition={{ duration: 1 }}
+      transition={{ duration: 0.8 }}
       className={`${hidden ? 'hidden' : 'flex'} flex flex-col gap-2`}
     >
-      <p className="font-bold text-lg">Oka is currently listening to</p>
+      <p className="font-bold">Currently playing</p>
       <div className="flex items-center gap-6">
-        <div className="w-16 h-16 relative">
+        <div className="w-14 h-14 relative">
           <motion.div
             initial={{ x: 0 }}
-            animate={{ x: 32 }}
-            transition={{ duration: 0.4, delay: 0.4 }}
+            animate={animateVinyl}
+            transition={{ duration: 0.4 }}
             className="absolute w-full h-full bg-black rounded-full">
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-1/3 h-1/3 bg-white rounded-full"></div>
           </motion.div>
           <Image src={albumArt} alt={songName} fill />
         </div>
-        <div className="ml-6">
-          <a href={songUrl} target="_blank" rel="noreferrer" className="text-xl font-bold">{songName}</a>
-          <div className="text-gray-300">{artistName}</div>
+        <div className="ml-5">
+          <a href={songUrl} target="_blank" rel="noreferrer" className="text-lg font-bold">{songName}</a>
+          <div className="text-gray-300 text-sm">{artistName}</div>
         </div>
       </div>
     </motion.div>

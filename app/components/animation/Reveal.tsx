@@ -4,6 +4,7 @@ import { useEffect, useRef } from "react";
 
 interface RevealProps {
   children: React.ReactNode;
+  layout?: boolean;
   initial?: VariantLabels;
   reveal?: VariantLabels;
   transition?: Transition;
@@ -13,7 +14,7 @@ interface RevealProps {
   className?: string;
 }
 
-const Reveal = ({ children, initial, reveal, transition, amount, variants, useView, className }: RevealProps) => {
+const Reveal = ({ children, layout, initial, reveal, transition, amount, variants, useView, className }: RevealProps) => {
   const ref = useRef(null);
   const inView = useInView(ref, { amount: amount, once: true });
   const animation = useAnimation();
@@ -30,6 +31,7 @@ const Reveal = ({ children, initial, reveal, transition, amount, variants, useVi
   return (
     <motion.div
       ref={ref}
+      layout={layout}
       initial={initial}
       animate={animation}
       variants={variants}

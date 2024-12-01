@@ -1,100 +1,114 @@
 import Reveal from "../animation/Reveal";
 import RevealChildren from "../animation/RevealChildren";
-import { FaMedal } from "react-icons/fa";
 
 export default function Awards() {
   return (
     <Reveal
       variants={{
-        visible: {
-          opacity: 1,
-          x: 0
-        },
-        hidden: {
-          opacity: 0,
-          x: 50
-        },
+        hidden: { opacity: 0, x: -30 },
+        visible: { opacity: 1, x: 0 },
       }}
-      transition={{ duration: 0.5, staggerChildren: 0.2, delayChildren: 0.3 }}
+      amount={0.4}
       initial="hidden"
       reveal="visible"
-      amount={0.4}
-      className="flex flex-col justify-center items-center p-16 gap-8"
+      transition={{ duration: 0.5, staggerChildren: 0.2, delayChildren: 0.3 }}
+      className="flex flex-col justify-center items-center pt-8 pb-24"
       useView
     >
-      <p className="text-6xl font-bold mb-8">Awards</p>
-      <RevealChildren
-        variants={{
-          visible: {
-            opacity: 1,
-            x: 0
-          },
-          hidden: {
-            opacity: 0,
-            x: 50
-          },
-        }}
-        className="grid grid-cols-6 items-center gap-8 w-3/4 bg-gradient-to-b from-stone-900 to-stone-800 px-12 py-8 rounded-2xl outline outline-4 outline-orange-900"
-      >
-        <div className="flex flex-col gap-4 col-span-5">
-          <div>
-            <p className="text-2xl font-bold">Technofair 11.0 CTF 3rd Place</p>
-            <p className="text-xl text-gray-500">Jul 2024</p>
-            <p>Going by the team name of &quot;635 days since last finals&quot;, we placed 3rd in the Technofair 11.0 CTF competition, held by BEM FIKTI Universitas Gunadarma in Bekasi, Indonesia.</p>
-          </div>
+      <div className="flex flex-col w-5/6 justify-center items-center gap-8">
+        <p className="text-5xl sm:text-6xl font-black mb-4">Awards</p>
+        <div className="flex flex-col items-center gap-16">
+          <RevealChildren
+            className="flex flex-col items-center gap-4 sm:w-3/4"
+            variants={{
+              hidden: { opacity: 0, x: -30 },
+              visible: { opacity: 1, x: 0 },
+            }}
+          >
+            <div className="flex flex-col items-center text-center">
+              <p className="text-lg sm:text-2xl text-stone-400 font-light">Nov 2024</p>
+              <p className="text-2xl sm:text-4xl font-bold">PwC Hack A Day 2024 1st Runner Up</p>
+              <p className='sm:text-xl text-purple-400'>PwC Indonesia</p>
+            </div>
+            <p className="sm:text-xl text-center">
+              Won 1st place in Indonesia and achieved 4th place globally with the team name of &quot;Sudah Adakah Yang Gantikank3ng&quot;
+            </p>
+          </RevealChildren>
+          <RevealChildren
+            className="flex flex-col items-center gap-4 sm:w-3/4"
+            variants={{
+              hidden: { opacity: 0, x: -30 },
+              visible: { opacity: 1, x: 0 },
+            }}
+          >
+            <div className="flex flex-col items-center text-center">
+              <p className="text-lg sm:text-2xl text-stone-400 font-light">Oct 2024</p>
+              <p className="text-2xl sm:text-4xl font-bold">Cyber Jawara 2024 International 2nd Place</p>
+              <p className='sm:text-xl text-purple-400'>CSIRT</p>
+            </div>
+            <p className="sm:text-xl text-center">
+              Achieved 2nd place with the team name of &quot;swusjask fans club&quot;, a merger between CSUI (Universitas Indonesia), HCS (Institut Teknologi Sepuluh Nopember), CSI (Institut Pertanian Bogor) and CCUG (Universitas Gunadarma). Solved all of the forensics challenges.
+            </p>
+          </RevealChildren>
+          <RevealChildren
+            className="flex flex-col items-center gap-4 sm:w-3/4"
+            variants={{
+              hidden: { opacity: 0, x: -30 },
+              visible: { opacity: 1, x: 0 },
+            }}
+          >
+            <div className="flex flex-col items-center text-center">
+              <p className="text-lg sm:text-2xl text-stone-400 font-light">Oct 2024</p>
+              <p className="text-2xl sm:text-4xl font-bold">CTF TCP1P International Winner</p>
+              <p className='sm:text-xl text-purple-400'>TCP1P</p>
+            </div>
+            <p className="sm:text-xl text-center">
+              Won with the team name of &quot;dimas fans club&quot;, a merger between CSUI (Universitas Indonesia), HCS (Institut Teknologi Sepuluh Nopember), CSI (Institut Pertanian Bogor) and CCUG (Universitas Gunadarma).
+            </p>
+          </RevealChildren>
+          <RevealChildren
+            className="flex flex-col items-center gap-4 sm:w-3/4"
+            variants={{
+              hidden: { opacity: 0, x: -30 },
+              visible: { opacity: 1, x: 0 },
+            }}
+          >
+            <div className="flex flex-col items-center text-center">
+              <p className="text-lg sm:text-2xl text-stone-400 font-light">Aug 2024</p>
+              <p className="text-2xl sm:text-4xl font-bold">GEMASTIK 2024 Keamanan Siber Finalist</p>
+              <p className='sm:text-xl text-purple-400'>Puspresnas</p>
+            </div>
+            <p className="sm:text-xl text-center">
+              Reached Top 20, going by the name &quot;HengkerNgangNgong&quot; and participated in the prestigious finals with the Attack-Defense format at UNNES Semarang.
+            </p>
+          </RevealChildren>
+          <RevealChildren
+            className="flex flex-col items-center gap-4 sm:w-3/4"
+            variants={{
+              hidden: { opacity: 0, x: -30 },
+              visible: { opacity: 1, x: 0 },
+            }}
+          >
+            <div className="flex flex-col items-center text-center">
+              <p className="text-lg sm:text-2xl text-stone-400 font-light">Jul 2024</p>
+              <p className="text-2xl sm:text-4xl font-bold">Technofair 11.0 CTF 3rd Place</p>
+              <p className='sm:text-xl text-purple-400'>BEM FIKTI UG</p>
+            </div>
+            <p className="sm:text-xl text-center">
+              3rd place out of 10 teams that participated in the finals, going by the name &quot;635 days since last finals&quot;.
+            </p>
+          </RevealChildren>
+          <RevealChildren
+            className="flex flex-col items-center gap-4"
+            variants={{
+              hidden: { opacity: 0, x: -30 },
+              visible: { opacity: 1, x: 0 },
+            }}
+          >
+            <a href="https://ctf.muhammadoka.dev/" className="sm:text-xl font-bold hover:underline decoration-purple-400 decoration-dashed underline-offset-2 decoration-1" target="_blank" rel="noreferrer">Click here for my <span className="text-purple-400">CTF write-ups</span></a>
+          </RevealChildren>
         </div>
-        <div className="size-24 justify-self-end text-orange-900">
-          <FaMedal className="size-full" />
-        </div>
-      </RevealChildren>
-      <RevealChildren
-        variants={{
-          visible: {
-            opacity: 1,
-            x: 0
-          },
-          hidden: {
-            opacity: 0,
-            x: 50
-          },
-        }}
-        className="grid grid-cols-6 items-center gap-8 w-3/4 bg-gradient-to-b from-stone-900 to-stone-800 px-12 py-8 rounded-2xl"
-      >
-        <div className="flex flex-col gap-4 col-span-5">
-          <div>
-            <p className="text-2xl font-bold">GEMASTIK XVII Keamanan Siber Finalist</p>
-            <p className="text-xl text-gray-500">Aug 2024</p>
-            <p>Going by the team name of &quot;HengkerNgangNgong&quot;, we secured the top 20 in the GEMASTIK XVII Keamanan Siber competition, held by BPTI Kemendikbud and Universitas Negeri Semarang.</p>
-          </div>
-        </div>
-        <div className="size-24 justify-self-end">
-          <FaMedal className="size-full" />
-        </div>
-      </RevealChildren>
-      <RevealChildren
-        variants={{
-          visible: {
-            opacity: 1,
-            x: 0
-          },
-          hidden: {
-            opacity: 0,
-            x: 50
-          },
-        }}
-        className="grid grid-cols-6 items-center gap-8 w-3/4 bg-gradient-to-b from-stone-900 to-stone-800 px-12 py-8 rounded-2xl"
-      >
-        <div className="flex flex-col gap-4 col-span-5">
-          <div>
-            <p className="text-2xl font-bold">CTF COMPFEST 14 Finalist</p>
-            <p className="text-xl text-gray-500">Sep 2022</p>
-            <p>Going by the team name of &quot;HengkerNgangNgong&quot;, we secured the top 15 out of 117 teams in the CTF COMPFEST 14 competition, held by COMPFEST at Faculty of Computer Science Universitas Indonesia in Depok, Indonesia.</p>
-          </div>
-        </div>
-        <div className="size-24 justify-self-end">
-          <FaMedal className="size-full" />
-        </div>
-      </RevealChildren>
+      </div>
     </Reveal>
   )
 }

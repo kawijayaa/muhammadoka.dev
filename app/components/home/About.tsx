@@ -1,52 +1,32 @@
-import { useEffect, useRef } from "react";
-import Typed from 'typed.js';
-
 import Reveal from "../animation/Reveal";
 
 export default function About() {
-  const name = useRef(null);
-  useEffect(() => {
-    const typed = new Typed(name.current, {
-      strings: ['Me', 'Oka', 'k3ng'],
-      typeSpeed: 200,
-      backSpeed: 60,
-      smartBackspace: false,
-      loop: true,
-    });
-
-    return () => {
-      typed.destroy();
-    }
-  })
-
   return (
     <Reveal
       variants={{
-        visible: {
-          opacity: 1,
-          y: 0,
-        },
-        hidden: {
-          opacity: 0,
-          y: 50,
-        },
+        hidden: { opacity: 0, scale: 0.9 },
+        visible: { opacity: 1, scale: 1 },
       }}
+      amount={0.3}
       initial="hidden"
       reveal="visible"
-      amount={0.5}
-      transition={{ duration: 0.5 }}
-      className="flex flex-col justify-center items-center p-16 pt-32 gap-8"
+      transition={{ duration: 0.4 }}
+      className="flex flex-col justify-center items-center pt-32 pb-16"
       useView
     >
-      <p className="text-6xl font-bold">About <span ref={name}></span></p>
-      <p className="text-3xl w-5/6">
-        A junior computer science student at Universitas Indonesia with over two years of experience in CTF competitions, focusing on web exploitation and forensics.
-        Currently interested in cyber security, web development, DevOps, programming languages, and computer science in general.
-        I also build side-projects around said interests on my spare time for fun.
-      </p>
-      <p className="text-3xl w-5/6">
-        Outside of tech, I&apos;m an audiophile listening to broad ranges of genres from jazz-fusion to metal and rap. I&apos;m also have a passion for cars, motorcycles, music gear and sneakers.
-      </p>
+      <div className="flex flex-col w-5/6 justify-center items-center gap-8">
+        <p className="text-5xl sm:text-6xl font-black">About</p>
+        <p className="text-xl sm:text-3xl">
+          G&apos;day 👋! My name is <span className="underline decoration-purple-400 decoration-dashed underline-offset-2 decoration-1">Muhammad Oka</span>.
+          Currently a third-year computer science student at the University of Queensland.
+          My journey into computer science began in first grade elementary when I joined the school&apos;s robotics club, igniting a lifelong curiosity for technology.
+        </p>
+        <p className="text-xl sm:text-3xl">
+          Outside of academic obligations, I do side-projects as a playground to solidify my understanding in computer science and explore new technologies.
+          Some topics I am currently interested are <span className="underline decoration-purple-400 decoration-dashed underline-offset-2 decoration-1">Cyber Security</span>, <span className="underline decoration-purple-400 decoration-dashed underline-offset-2 decoration-1">Cloud Infrastructure</span>, and <span className="underline decoration-purple-400 decoration-dashed underline-offset-2 decoration-1">Web Development</span>.
+          I also like to participate in capture-the-flag competitions from time to time, mainly solving Forensics and Web Exploitation challenges.
+        </p>
+      </div>
     </Reveal>
-  );
+  )
 }

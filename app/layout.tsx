@@ -5,8 +5,9 @@ import "./globals.css";
 const font = Plus_Jakarta_Sans({ weight: ["400", "600", "700"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "muhammadoka.dev",
-  description: "telling computers what to do since 2012.",
+  title: "muhammadoka",
+  description: "Passionate cyber security student based in Brisbane, Australia. Interested in Cyber Security, Cloud Infrastructure, and Web Development. Plays capture-the-flag competitions, solving Forensics and Web exploitation challenges.",
+  keywords: ['cyber security', 'cloud', 'cloud infrastructure', 'web development', 'capture the flag', 'forensics', 'web exploitation', 'ctf', 'muhammad oka'],
 };
 
 export default function RootLayout({
@@ -15,14 +16,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="bg-stone-950">
+    <html lang="en" className="bg-stone-950 bg-[linear-gradient(to_right,#57534e05_2px,transparent_2px),linear-gradient(to_bottom,#57534e05_2px,transparent_2px)] bg-[size:36px_36px]">
       <head>
         <title>muhammadoka</title>
       </head>
-      <body className={`${font.className} text-white h-dvh flex flex-col relative`}>
-        <div className="w-full h-full z-50">
-          {children}
-        </div>
+      <body className={`${font.className} text-white overflow-x-hidden`}>
+        {children}
       </body>
     </html >
   );

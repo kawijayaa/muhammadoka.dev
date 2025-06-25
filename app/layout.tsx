@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="bg-stone-950 bg-[linear-gradient(to_right,#57534e05_2px,transparent_2px),linear-gradient(to_bottom,#57534e05_2px,transparent_2px)] bg-[size:36px_36px]">
+    <html lang="en" className="bg-stone-950 bg-[linear-gradient(to_right,#57534e08_2px,transparent_2px),linear-gradient(to_bottom,#57534e08_2px,transparent_2px)] bg-size-[36px_36px]">
       <head>
         <title>muhammadoka</title>
       </head>

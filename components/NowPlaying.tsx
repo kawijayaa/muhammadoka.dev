@@ -21,7 +21,7 @@ function useFetchLastFM() {
   const [artistName, setArtistName] = useState('')
   const [albumArt, setAlbumArt] = useState('')
   const [vinylColor, setVinylColor] = useState('')
-  const coverArtRef = useRef()
+  const coverArtRef = useRef(null)
   const [animate, cycle] = useCycle(
     { opacity: 0, y: 32 },
     { opacity: 1, y: 0 },
